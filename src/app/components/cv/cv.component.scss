@@ -1,0 +1,273 @@
+
+@import "../../../colors&fonts.scss";
+
+
+////////////////////////
+// Desktop
+////////////////////////
+
+@media screen and (min-width: 768px) {
+
+    .grid {
+        display: grid;
+        grid-template-rows: repeat(6, minmax(0, 1fr));
+        grid-template-columns: repeat(5, 1fr);
+        grid-gap: 1em;
+    }
+
+    .grid-item {
+        font-family: $raleway;
+        text-transform: uppercase;
+        color: $black;
+        font-size: .9em;
+        border-radius: 5px;
+        padding: 1.8em;
+        line-height: 1,5;
+
+        .flex {
+            display: grid;
+            grid-template-rows: repeat(4, auto);
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 1.5em;
+            
+            .flex-item {
+                padding: 1em;
+                border-radius: 5px;
+                background: $color2;
+                color: $true-black;
+
+                &.one {
+                    grid-row: 1 / 2;
+                    grid-column: 3 / 4;
+
+                    div {
+                        padding-top: .5em;
+                        padding-bottom: 0em;
+                    }
+                }
+
+                &.two {
+                    grid-row: 1 / 2;
+                    grid-column: 1 / 3;
+
+                    .narrow {
+                        width: 98.4%;
+                        padding-left: 5px;
+                    }
+                }
+
+                &.three {
+                    grid-row: 2 / 3;
+                    grid-column: 2 / 4;
+                }
+
+                &.four {
+                    grid-row: 2 / 4;
+                    grid-column: 1 / 2;
+                }
+
+                &.five {
+                    grid-row: 3 / 4;
+                    grid-column: 2 / 4;
+                }
+
+                &.six {
+                    grid-row: 4 / 5;
+                    grid-column: 1 / 4;
+
+                    div {
+                        padding-top: .2em;
+                        padding-bottom: .3em;
+                        i {
+                            font-size: 35px;
+                            text-transform: none;
+                        }
+                    } 
+                }
+
+                &.four div i {
+                    font-size: 35px;
+                    font-family: $lato;
+                    font-weight: 900;
+                    font-style: normal;
+                    text-transform: none;
+                }
+            
+                div {
+                    padding-top: .3em;
+                    padding-bottom: .2em;
+                    display: flex;
+                    justify-content: space-around;
+                    font-size: 60px;
+
+                    i {
+                        transition: 0.2s linear;
+                    
+                        &:hover {
+                            transform: scale(1.3);
+                            text-shadow: 0px 10px 20px $black;
+                            cursor: pointer;
+                        }
+
+                        &.active {
+                            transform: scale(1.3);
+                            text-shadow: 0px 10px 20px $black;
+                            color: $white;
+                        }
+
+                        &:focus {
+                            outline: 0;
+                            box-shadow: none!important;
+                        }
+                    }
+                }
+            }
+        }
+
+        h1 {
+            margin-bottom: .5em;
+        }
+
+        &.one {
+            background: $color1;
+            grid-row: 1 / 4;
+            grid-column: 1 / 4;
+        }
+
+        &.two {
+            padding: 0em 4em 0em 4em;
+            font-size: 1.3rem;
+            text-transform: none;
+            text-align: justify;
+            text-justify: inter-word;
+            line-height: 1.7;
+            color: $true-black;
+            background: $color2;
+            grid-row: 1 / 3;
+            grid-column: 4 / 6;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        &.three {
+            background: $color1;
+            grid-row: 3 / 5;
+            grid-column: 4 / 6;
+        }
+
+        &.four {
+            padding: 0em 4em 0em 4em;
+            font-size: 1.3rem;
+            text-transform: none;
+            text-align: justify;
+            text-justify: inter-word;
+            line-height: 1.7;
+            color: $true-black;
+            background: $color2;
+            grid-row: 4 / 7;
+            grid-column: 1 / 3;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        &.five {
+            color: $true-black;
+            background: $color2;
+            grid-row: 4 / 5;
+            grid-column: 3 / 4;
+        }
+
+        &.six {
+            background: $color1;
+            grid-row: 5 / 7;
+            grid-column: 3 / 6;
+        }
+    }
+
+    .svg {
+        transition: 0.2s linear;
+        transition: -webkit-filter 0.2s linear;
+
+        &:hover {
+            transform: scale(1.3);
+            cursor: pointer;
+            filter: drop-shadow(0px 10px 10px $black);
+        }
+
+        &.active {
+            transform: scale(1.3);
+            filter: brightness(0) saturate(100%) invert(100%) sepia(19%) 
+            saturate(2%) hue-rotate(14deg) brightness(110%) contrast(92%) 
+            drop-shadow(0px 10px 10px $black);
+        }
+
+        object {
+            pointer-events: none;
+            width: 60px;
+            height: 60px;
+        }
+    }  
+}
+
+
+/////////////////////////
+// Mobile
+/////////////////////////
+
+@media screen and (max-width: 768px) {
+    .grid {
+        display: flex;
+        flex-direction: column;
+
+        div {
+            margin-top: 1em;
+            margin-bottom: 1em;
+        }
+    }
+
+    .grid-item {
+        font-family: $raleway;
+        color: $black;
+        padding: 1.8em;
+        line-height: 1,5;
+
+        p {
+            margin-bottom: .5em;
+        }
+    
+        h1 {
+            margin-bottom: .4em;
+        }
+    
+        &.one {
+            background: $color1;
+            text-align: justify;
+        }
+    
+        &.two {
+            color: $true-black;
+            background: $color2;
+        }
+    
+        &.three {
+            background: $color1;
+        }
+    
+        &.four {
+            color: $true-black;
+            background: $color2;
+        }
+    
+        &.five {
+            color: $true-black;
+            background: $color2;
+        }
+    
+        &.six {
+            background: $color1;
+        }
+    }
+}

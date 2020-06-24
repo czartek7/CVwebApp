@@ -1,0 +1,181 @@
+/* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap");
+@font-face {
+  font-family: "Jaapokki-regular";
+  src: url("assets/fonts/regular/jaapokki-regular.eot");
+  src: url("assets/fonts/regular/jaapokki-regular.woff") format("woff"), url("assets/fonts/regular/jaapokki-regular.ttf") format("truetype"), url("assets/fonts/regular/jaapokki-regular.svg") format("svg");
+}
+
+@font-face {
+  font-family: "Jaapokki-enchance";
+  src: url("assets/fonts/enchance/jaapokkienchance-regular.eot");
+  src: url("assets/fonts/enchance/jaapokkienchance-regular.woff") format("woff"), url("assets/fonts/enchance/jaapokkienchance-regular.ttf") format("truetype"), url("assets/fonts/enchance/jaapokkienchance-regular.svg") format("svg");
+}
+
+@font-face {
+  font-family: "Jaapokki-subtract";
+  src: url("assets/fonts/subtract/jaapokkisubtract-regular.eot");
+  src: url("assets/fonts/subtract/jaapokkisubtract-regular.woff") format("woff"), url("assets/fonts/subtract/jaapokkisubtract-regular.ttf") format("truetype"), url("assets/fonts/subtract/jaapokkisubtract-regular.svg") format("svg");
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: #353535;
+  color: #c4c4c4;
+  font-family: "Raleway", sans-serif;
+  line-height: 1.45;
+  zoom: 80%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #4f4f4f;
+  height: 8vh;
+  background: #4f4f4f;
+  padding: 2.5em 0em 2.5em 0em;
+}
+
+.logo {
+  text-transform: uppercase;
+  font-family: "Jaapokki-enchance";
+  margin-top: 7px;
+  font-size: 2.2rem;
+  letter-spacing: 2px;
+}
+
+.logo a {
+  text-decoration: none;
+  color: #c4c4c4;
+}
+
+.logo span {
+  font-family: "Jaapokki-subtract";
+  color: #f5f5f5;
+}
+
+.nav-item {
+  font-family: "Jaapokki-regular";
+  display: flex;
+  justify-content: space-around;
+  width: 36%;
+}
+
+.nav-item a {
+  color: #919191;
+  font-size: 1.4rem;
+  text-decoration: none;
+}
+
+.nav-item a.active {
+  color: #c4c4c4;
+}
+
+.nav-item a:hover {
+  color: #c4c4c4;
+}
+
+.nav-item li {
+  list-style: none;
+}
+
+.burger {
+  display: none;
+  cursor: pointer;
+}
+
+.burger div {
+  width: 25px;
+  height: 3px;
+  margin: 5px;
+  background-color: #919191;
+  transition: all 0.3s ease;
+}
+
+@media screen and (max-width: 1024px) {
+  .nav-item {
+    width: 45%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  html,
+  body {
+    overflow-x: hidden;
+    position: relative;
+    height: 100%;
+    font-size: 1rem;
+  }
+  nav {
+    padding: 0px 0px 0px 0px;
+  }
+  .logo {
+    font-size: 1.5rem;
+    letter-spacing: 0px;
+  }
+  .nav-item {
+    position: absolute;
+    right: 0px;
+    height: 92vh;
+    width: 50%;
+    top: 8vh;
+    background: #4f4f4f;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in;
+  }
+  .nav-item li {
+    opacity: 0;
+    padding: 25px 0px 25px 0px;
+  }
+  .nav-item a {
+    font-size: 1rem;
+  }
+  .burger {
+    display: block;
+  }
+}
+
+.nav-active {
+  transform: translateX(0%);
+}
+
+@keyframes navLinkFade {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+.burger-animation .line1 {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.burger-animation .line2 {
+  opacity: 0;
+}
+
+.burger-animation .line3 {
+  transform: rotate(45deg) translate(-5px, -6px);
+}
+
+.main-content {
+  font-size: 1.2rem;
+  padding: 8%;
+  padding-top: 6%;
+  height: auto;
+}

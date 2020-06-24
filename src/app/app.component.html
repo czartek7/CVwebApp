@@ -1,0 +1,31 @@
+
+<nav>
+  <div class="logo">
+    <a href="#" routerLink="/main_page">
+      Cezary<span>Cieśliński</span>
+    </a>
+  </div>
+  <ul class="nav-item" (click)="navSlide()">
+    <li>
+      <a href="#" routerLink="/main_page" routerLinkActive="active">Strona główna</a>
+    </li>
+    <li>
+      <a href="#" routerLink="/about_me" routerLinkActive="active">O mnie</a>
+    </li>
+    <li>
+      <a href="#" routerLink="/cv" routerLinkActive="active">CV</a>
+    </li>
+    <li>
+      <a href="#" routerLink="/contact" routerLinkActive="active">Kontakt</a>
+    </li>
+  </ul>
+  <div class="burger" (click)="navSlide()">
+    <div class="line1"></div>
+    <div class="line2"></div>
+    <div class="line3"></div>
+  </div>
+</nav>
+
+<div class="main-content">
+  <router-outlet></router-outlet>
+</div>

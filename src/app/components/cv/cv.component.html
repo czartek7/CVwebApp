@@ -1,0 +1,93 @@
+
+<div class="grid">
+
+      <div class="grid-item one"> 
+        <h1>Umiejętności</h1>
+        <div class="flex">
+
+            <div class="flex-item one">
+                <p>Back-end</p>
+                <br>
+                <div>
+                    <i class="fab fa-java" [routerLink]="[{ outlets: { cvoutlet: ['java'] } }]" routerLinkActive="active" skipLocationChange></i>
+                    <i class="fab fa-python" [routerLink]="[{ outlets: { cvoutlet: ['python'] } }]" routerLinkActive="active" skipLocationChange></i>
+                </div>
+            </div>
+
+            <div class="flex-item two">
+                <p>Front-end</p>
+                <div>
+                    <i class="fab fa-html5" [routerLink]="[{ outlets: { cvoutlet: ['html5'] } }]" routerLinkActive="active" skipLocationChange></i>
+                    <i class="fab fa-css3-alt" [routerLink]="[{ outlets: { cvoutlet: ['css3'] } }]" routerLinkActive="active" skipLocationChange></i>
+                    <i class="fab fa-js" [routerLink]="[{ outlets: { cvoutlet: ['javascript'] } }]" routerLinkActive="active" skipLocationChange></i>
+                </div>
+                <div class="narrow">
+                    <i class="fab fa-angular" [routerLink]="[{ outlets: { cvoutlet: ['angular'] } }]" routerLinkActive="active" skipLocationChange></i>
+                    <i class="fab fa-node" [routerLink]="[{ outlets: { cvoutlet: ['nodejs'] } }]" routerLinkActive="active" skipLocationChange></i>
+                    <i class="fab fa-bootstrap" [routerLink]="[{ outlets: { cvoutlet: ['bootstrap'] } }]" routerLinkActive="active" skipLocationChange></i>
+                </div>
+            </div>
+
+            <div class="flex-item three">
+                <p>Ide</p>
+                <div>
+                    <i class="svg" [routerLink]="[{ outlets: { cvoutlet: ['vscode'] } }]" routerLinkActive="active" skipLocationChange>
+                        <object data="../../../assets/images/vscode.svg" type="image/svg+xml"></object>
+                    </i>
+                    <i class="fab fa-android" [routerLink]="[{ outlets: { cvoutlet: ['androids'] } }]" routerLinkActive="active" skipLocationChange></i>
+                    <i class="svg" [routerLink]="[{ outlets: { cvoutlet: ['intellij'] } }]" routerLinkActive="active" skipLocationChange>
+                        <object data="../../../assets/images/intellij.svg" type="image/svg+xml"></object>
+                    </i>
+                </div>
+            </div>
+
+            <div class="flex-item four">
+                <p>Biblioteki</p>
+                <div>
+                    <i class="svg" [routerLink]="[{ outlets: { cvoutlet: ['tensorflow'] } }]" routerLinkActive="active" skipLocationChange>
+                        <object data="../../../assets/images/tensorflow.svg" type="image/svg+xml"></object>
+                    </i>
+                </div>
+                <div>
+                    <i [routerLink]="[{ outlets: { cvoutlet: ['numpy'] } }]" routerLinkActive="active" skipLocationChange>NumPy</i>
+                </div>
+                <div style="padding-top: .5em;">
+                    <i [routerLink]="[{ outlets: { cvoutlet: ['pandas'] } }]" routerLinkActive="active" skipLocationChange>Pandas</i>
+                </div>       
+            </div>
+
+            <div class="flex-item five">
+                <p>Dodatkowe</p>
+                <div>
+                    <i class="fab fa-linux" [routerLink]="[{ outlets: { cvoutlet: ['linux'] } }]" routerLinkActive="active" skipLocationChange></i>
+                    <i class="fab fa-git" [routerLink]="[{ outlets: { cvoutlet: ['git'] } }]" routerLinkActive="active" skipLocationChange></i>
+                    <i class="far fa-lightbulb" [routerLink]="[{ outlets: { cvoutlet: ['agile'] } }]" routerLinkActive="active" skipLocationChange></i>
+                    <i class="fas fa-database" [routerLink]="[{ outlets: { cvoutlet: ['sql'] } }]" routerLinkActive="active" skipLocationChange></i>
+                </div>
+            </div>
+
+            <div class="flex-item six">
+                <p>Języki</p>
+                <div>
+                    <i [routerLink]="[{ outlets: { cvoutlet: ['eng'] } }]" routerLinkActive="active" skipLocationChange>Hello!</i>
+                    <i [routerLink]="[{ outlets: { cvoutlet: ['chinese'] } }]" routerLinkActive="active" skipLocationChange>你好!</i>
+                    <i [routerLink]="[{ outlets: { cvoutlet: ['pol'] } }]" routerLinkActive="active" skipLocationChange>Cześć!</i>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="grid-item two">
+        <router-outlet name="cvoutlet"></router-outlet>
+    </div>
+
+    <div class="grid-item three">Wykształcenie</div>
+
+    <div class="grid-item four">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates, fugit! Magnam quae, dolores deserunt esse eos magni laborum animi inventore.</div>
+
+    <div class="grid-item five">five</div>
+
+    <div class="grid-item six">Zainteresowania</div>
+
+</div>

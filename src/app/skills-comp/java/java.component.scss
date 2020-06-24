@@ -1,0 +1,14 @@
+@import '../../../colors&fonts.scss';
+
+p {
+    margin-bottom: 15px;
+
+    a {
+        text-decoration: none;
+
+        &:hover {
+            color: $light-gray;
+            text-decoration: underline;
+        }
+    }
+}

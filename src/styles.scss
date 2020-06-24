@@ -1,0 +1,224 @@
+/* You can add global styles to this file, and also import other style files */
+
+// Fonts import
+@font-face {
+  font-family: "Jaapokki-regular";
+  src: url("assets/fonts/regular/jaapokki-regular.eot");
+  src:
+  url("assets/fonts/regular/jaapokki-regular.woff") format("woff"),
+  url("assets/fonts/regular/jaapokki-regular.ttf") format("truetype"),
+  url("assets/fonts/regular/jaapokki-regular.svg") format("svg");
+  }
+
+@font-face {
+  font-family: "Jaapokki-enchance";
+  src: url("assets/fonts/enchance/jaapokkienchance-regular.eot");
+  src:
+  url("assets/fonts/enchance/jaapokkienchance-regular.woff") format("woff"),
+  url("assets/fonts/enchance/jaapokkienchance-regular.ttf") format("truetype"),
+  url("assets/fonts/enchance/jaapokkienchance-regular.svg") format("svg");
+  }
+
+@font-face {
+  font-family: "Jaapokki-subtract";
+  src: url("assets/fonts/subtract/jaapokkisubtract-regular.eot");
+  src:
+  url("assets/fonts/subtract/jaapokkisubtract-regular.woff") format("woff"),
+  url("assets/fonts/subtract/jaapokkisubtract-regular.ttf") format("truetype"),
+  url("assets/fonts/subtract/jaapokkisubtract-regular.svg") format("svg");
+  }
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
+
+@import "colors&fonts.scss";
+
+// ===================
+// General styles
+// ===================
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+  background: $black;
+  color: $light-gray;
+  font-family: $raleway;
+  line-height: 1.45;
+  zoom: 80%;
+}
+
+
+// ===================
+// Navigation
+// ===================
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: $gray;
+  height: 8vh;
+  background: $gray;
+  padding: 2.5em 0em 2.5em 0em;
+}
+
+.logo {
+  text-transform: uppercase;
+  font-family: $jaapokki-enchance;
+  margin-top: 7px;
+  font-size: 2.2rem;
+  letter-spacing: 2px;
+
+  a {
+    text-decoration: none;
+    color: $light-gray;
+  }
+  
+  span {
+    font-family: $jaapokki-subtract;
+    color: $white;
+  }
+}
+
+.nav-item {
+  font-family: $jaapokki-regular;
+  display: flex;
+  justify-content: space-around;
+  width: 36%;
+
+  a {
+    color: $medium-gray;
+    font-size: 1.4rem;
+    text-decoration: none;
+
+    &.active {
+      color: $light-gray;
+    }
+  
+    &:hover {
+      color: $light-gray;
+    }
+  }
+
+  li {
+    list-style: none;
+  }
+}
+
+.burger {
+  display: none;
+  cursor: pointer;
+
+  div {
+    width: 25px;
+    height: 3px;
+    margin: 5px;
+    background-color: $medium-gray;
+    transition: all 0.3s ease;
+  }
+}
+
+////////////////////
+// Mobile version
+////////////////////
+
+@media screen and (max-width: 1024px) {
+  .nav-item {
+    width: 45%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+html,
+body {
+    overflow-x: hidden;
+    position: relative;
+    height: 100%;
+    font-size: 1rem;
+}
+
+  nav {
+    padding: 0px 0px 0px 0px;
+  }
+
+  .logo {
+    font-size: 1.5rem;
+    letter-spacing: 0px;
+  }
+
+  .nav-item {
+    position: absolute;
+    right: 0px;
+    height: 92vh;
+    width: 50%;
+    top: 8vh;
+    background: $gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in;
+
+    li {
+      opacity: 0;
+      padding: 25px 0px 25px 0px;
+    }
+
+    a {
+      font-size: 1rem;
+    }
+  }
+
+  .burger {
+    display: block;
+  }
+}
+
+.nav-active {
+  transform: translateX(0%);
+}
+
+@keyframes navLinkFade {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+.burger-animation {
+
+  & .line1 {
+    transform: rotate(-45deg) translate(-5px,6px);
+  }
+
+  & .line2 {
+    opacity: 0;
+  }
+
+  & .line3 {
+    transform: rotate(45deg) translate(-5px,-6px);
+  }
+
+}
+
+
+// ===================
+// Main Content area
+// ===================
+
+.main-content {
+  font-size: 1.2rem;
+  padding: 8%;
+  padding-top: 6%;
+  height: auto;
+}
