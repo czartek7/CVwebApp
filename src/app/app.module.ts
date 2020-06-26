@@ -27,7 +27,6 @@ import { GitComponent } from './skills-comp/git/git.component';
 import { AgileComponent } from './skills-comp/agile/agile.component';
 import { SqlComponent } from './skills-comp/sql/sql.component';
 import { EngComponent } from './skills-comp/eng/eng.component';
-import { PolComponent } from './skills-comp/pol/pol.component';
 import { ChineseComponent } from './skills-comp/chinese/chinese.component';
 import { PandasComponent } from './skills-comp/pandas/pandas.component';
 
@@ -57,7 +56,6 @@ import { PandasComponent } from './skills-comp/pandas/pandas.component';
     AgileComponent,
     SqlComponent,
     EngComponent,
-    PolComponent,
     ChineseComponent,
     PandasComponent
   ],

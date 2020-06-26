@@ -23,7 +23,6 @@ import { LinuxComponent } from './skills-comp/linux/linux.component'
 import { AgileComponent } from './skills-comp/agile/agile.component'
 import { GitComponent } from './skills-comp/git/git.component'
 import { SqlComponent } from './skills-comp/sql/sql.component'
-import { PolComponent } from './skills-comp/pol/pol.component'
 import { EngComponent } from './skills-comp/eng/eng.component'
 import { ChineseComponent } from './skills-comp/chinese/chinese.component'
 import { PandasComponent } from './skills-comp/pandas/pandas.component'
@@ -52,7 +51,6 @@ const routes: Routes = [
     { path: 'agile', component: AgileComponent, outlet: "cvoutlet" },
     { path: 'sql', component: SqlComponent, outlet: "cvoutlet" },
     { path: 'git', component: GitComponent, outlet: "cvoutlet" },
-    { path: 'pol', component: PolComponent, outlet: "cvoutlet" },
     { path: 'eng', component: EngComponent, outlet: "cvoutlet" },
     { path: 'chinese', component: ChineseComponent, outlet: "cvoutlet" },
     { path: 'pandas', component: PandasComponent, outlet: "cvoutlet" },

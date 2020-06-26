@@ -1,7 +1,7 @@
 
 <div class="grid">
 
-      <div class="grid-item one"> 
+    <div class="grid-item one"> 
         <h1>Umiejętności</h1>
         <div class="flex">
 
@@ -71,7 +71,6 @@
                 <div>
                     <i [routerLink]="[{ outlets: { cvoutlet: ['eng'] } }]" routerLinkActive="active" skipLocationChange>Hello!</i>
                     <i [routerLink]="[{ outlets: { cvoutlet: ['chinese'] } }]" routerLinkActive="active" skipLocationChange>你好!</i>
-                    <i [routerLink]="[{ outlets: { cvoutlet: ['pol'] } }]" routerLinkActive="active" skipLocationChange>Cześć!</i>
                 </div>
             </div>
 
@@ -82,12 +81,104 @@
         <router-outlet name="cvoutlet"></router-outlet>
     </div>
 
-    <div class="grid-item three">Wykształcenie</div>
+    <div class="grid-item three">
+        <h1>Wykształcenie</h1>
+        <div class="school-flex">
+            <div class="school-item">
+                <div>
+                    <p>
+                        <span>PAŹDZIERNIK 2019 - NADAL</span>
+                    </p>
+                    <p>Uniwersytet Łódzki, Wydział Fizyki i Informatyki Stosowanej</p>
+                    <p>Kierunek: <span>Informatyka II stopnia</span>, specjalność „Sztuczna Inteligencja”</p>
+                </div>
+            </div>
+            <div class="school-item">
+                <div>
+                    <p>
+                        <span>PAŹDZIERNIK 2016 – CZERWIEC 2019</span>
+                    </p>
+                    <p>Uniwersytet Łódzki, Wydział Studiów Międzynarodowych i Politologicznych</p>
+                    <p>Kierunek: <span>Stosunki Międzynarodowe I stopnia, specjalność „Asian Studies”</span> w jęz. angielskim</p>
+                </div>
+            </div>
+        </div>
+    </div>
 
-    <div class="grid-item four">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates, fugit! Magnam quae, dolores deserunt esse eos magni laborum animi inventore.</div>
+    <div class="grid-item four">
+        <h1>Doświadczenie</h1>
+        <div class="exp-flex">
+            <div>
+                <p>
+                    MARZEC 2018 - LIPIEC 2018
+                </p>
+                <h1>
+                    <span>Urząd Marszałkowski w Łodzi — Departament Promocji i Współpracy Zagranicznej</span>
+                </h1>
+                <p>
+                    Do moich obowiązków jako stażysty należało redagowanie cotygodniowych raportów dot. polityki 
+                    zagranicznej USA oraz Chin, tłumaczenie dokumentów oraz realizacja bieżących projektów. Zazwyczaj dotyczyły one 
+                    współpracy z chińską prowincją Chengdu.
+                </p>
+            </div>
+            <div>
+                <p>
+                    PAŹDZIERNIK 2017 - MARZEC 2018
+                </p>
+                <h1>
+                    <span>Regionalny Ośrodek Debaty Międzynarodowej</span>
+                </h1>
+                <p>
+                    Jako wolontariusz pomagałem przy organizacji wydarzeń promujących region, moderowałem stronę internetową 
+                    oraz pełniłem dyżury w biurze.
+                </p>
+            </div>
+            <div>
+                <p>
+                    PAŹDZIERNIK 2016 - CZERWIEC 2019
+                </p>
+                <h1>
+                    <span>Koło Naukowe Azji Wschidniej i Pacyfiku</span>
+                </h1>
+                <p>
+                    W kole naukowym udzielałem się przez całą długość studiów I stopnia. Już na pierwszym roku udało nam się 
+                    zorganizować miesięczną wyprawę naukową do Tajlandii, Wietnamu, Laosu i Kambodży. Organizowaliśmy także serię 
+                    spotkań z podróżnikami w kawiarni Daleko Blisko.
+                </p>
+            </div>
+        </div>
+    </div>
 
     <div class="grid-item five">five</div>
 
-    <div class="grid-item six">Zainteresowania</div>
+    <div class="grid-item six">
+        <h1>Zainteresowania</h1>
+        <div class="six-grid">
+            <div class="six-grid-item one">
+                <h1>Kawa</h1>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio numquam nisi laborum nobis facere officia, aspernatur dignissimos neque repellat voluptas.
+                </p>
+            </div>
+            <div class="six-grid-item two">
+                <h1>Szachy</h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, reiciendis fugiat. Eligendi dignissimos exercitationem esse rerum culpa quidem rem consectetur.
+                </p>
+            </div>
+            <div class="six-grid-item three">
+                <h1>Podróże</h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum nesciunt quisquam quas doloremque voluptas nostrum quae similique dolores in tempora.
+                </p>
+            </div>
+            <div class="six-grid-item four">
+                <h1>Gry komputerowe</h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas dignissimos repudiandae velit quis debitis porro recusandae ab molestiae voluptate laudantium!
+                </p>
+            </div>
+        </div> 
+    </div>
 
 </div>

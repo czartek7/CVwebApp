@@ -10,14 +10,13 @@
 
     .grid {
         display: grid;
-        grid-template-rows: repeat(6, minmax(0, 1fr));
-        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(11, minmax(0, 1fr));
+        grid-template-columns: repeat(10, 1fr);
         grid-gap: 1em;
     }
 
     .grid-item {
         font-family: $raleway;
-        text-transform: uppercase;
         color: $black;
         font-size: .9em;
         border-radius: 5px;
@@ -59,6 +58,11 @@
                 &.three {
                     grid-row: 2 / 3;
                     grid-column: 2 / 4;
+
+                    div {
+                        padding-top: .4em;
+                        padding-bottom: 0em;
+                    }
                 }
 
                 &.four {
@@ -78,9 +82,9 @@
                     div {
                         padding-top: .2em;
                         padding-bottom: .3em;
+
                         i {
                             font-size: 35px;
-                            text-transform: none;
                         }
                     } 
                 }
@@ -90,7 +94,6 @@
                     font-family: $lato;
                     font-weight: 900;
                     font-style: normal;
-                    text-transform: none;
                 }
             
                 div {
@@ -130,22 +133,20 @@
 
         &.one {
             background: $color1;
-            grid-row: 1 / 4;
-            grid-column: 1 / 4;
+            grid-row: 1 / 6;
+            grid-column: 1 / 7;
         }
 
         &.two {
             padding: 0em 4em 0em 4em;
             font-size: 1.3rem;
-            text-transform: none;
             text-align: justify;
             text-justify: inter-word;
             line-height: 1.7;
             color: $true-black;
-            background: $color2;
-            grid-row: 1 / 3;
-            grid-column: 4 / 6;
-            height: 100%;
+            background: $color3;
+            grid-row: 1 / 4;
+            grid-column: 7 / 11;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -153,37 +154,152 @@
 
         &.three {
             background: $color1;
-            grid-row: 3 / 5;
-            grid-column: 4 / 6;
+            grid-row: 4 / 8;
+            grid-column: 7 / 11;
+
+            .school-flex {
+                display: flex;
+                flex-direction: column;
+        
+                .school-item {
+                    background: $color2;
+                    color: $true-black;
+                    border-radius: 5px;
+                    margin-top: .8em;
+                    margin-bottom: .7em;
+                    padding: 1em;
+                    
+                    div {
+                        justify-content: space-around;
+                        
+                        p {
+                            font-size: 1.3rem;
+                            margin-bottom: 8px;
+                            
+                            span {
+                                font-weight: $bold;
+                            }
+                        }
+                    }
+                }
+            }
         }
 
         &.four {
-            padding: 0em 4em 0em 4em;
-            font-size: 1.3rem;
-            text-transform: none;
-            text-align: justify;
-            text-justify: inter-word;
-            line-height: 1.7;
-            color: $true-black;
-            background: $color2;
-            grid-row: 4 / 7;
-            grid-column: 1 / 3;
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            background: $color1;
+            grid-row: 6 / 12;
+            grid-column: 1 / 5;
+
+            .exp-flex {
+                display: flex;
+                flex-direction: column;
+        
+                div {
+                    background: $color2;
+                    color: $true-black;
+                    border-radius: 5px;
+                    margin-top: .8em;
+                    margin-bottom: .7em;
+                    padding: 1em;
+
+                    h1 {
+                        font-size: 1.5rem;
+                        margin-bottom: 8px;
+                    }
+
+                    p {
+                        font-size: 1.3rem;
+                        margin-bottom: 8px;
+                        
+                        span {
+                            font-weight: $bold;
+                        }
+                    }
+                }
+            }
+            
         }
 
         &.five {
             color: $true-black;
-            background: $color2;
-            grid-row: 4 / 5;
-            grid-column: 3 / 4;
+            background-image: url(//unsplash.it/400/500);
+            background-size: cover;
+            background-position: top left;
+            grid-row: 6 / 8;
+            grid-column: 5 / 7;
         }
 
         &.six {
             background: $color1;
-            grid-row: 5 / 7;
-            grid-column: 3 / 6;
+            grid-row: 8 / 12;
+            grid-column: 5 / 11;
+
+            .six-grid {
+                display: grid;
+                grid-template-rows: repeat(2, auto);
+                grid-template-columns: repeat(2, 1fr);
+                grid-gap: 1.5em;
+
+                .six-grid-item {
+                    background: $color2;
+                    color: $white;
+                    border-radius: 5px;
+                    padding: 1em;
+
+                    h1 {
+                        font-size: 1.6rem;
+                    }
+
+                    p {
+                        font-size: 1.3rem;
+                        margin-bottom: 8px;
+                        
+                        span {
+                            font-weight: $bold;
+                        }
+                    }
+
+                    &.one {
+                        grid-row: 1 / 2;
+                        grid-column: 1 / 2;
+                        position: relative;
+                        background: url(../../../assets/images/coffee.jpg);
+                        background-size: cover;
+                        background-position: top left;
+                        z-index: 1;
+
+                        &:before {
+                            content: "";
+                            position: absolute;
+                            z-index: -1;
+                            top: 0;
+                            bottom: 0;
+                            left: 0;
+                            right: 0;
+                            display: block;
+                            background: $black;
+                            opacity: .8;
+                        }
+                    }
+
+                    &.two {
+                        grid-row: 1 / 2;
+                        grid-column: 2 / 3;
+                    }
+
+                    &.three {
+                        grid-row: 2 / 3;
+                        grid-column: 1 / 2;
+                        margin-bottom: .7em;
+                    }
+
+                    &.four {
+                        grid-row: 2 / 3;
+                        grid-column: 2 / 3;
+                        margin-bottom: .7em;
+                    }
+                }
+            }
         }
     }
 
