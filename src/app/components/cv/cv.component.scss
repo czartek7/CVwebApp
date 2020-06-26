@@ -13,6 +13,7 @@
         grid-template-rows: repeat(11, minmax(0, 1fr));
         grid-template-columns: repeat(10, 1fr);
         grid-gap: 1em;
+        zoom: 82.5%;
     }
 
     .grid-item {
@@ -22,8 +23,11 @@
         border-radius: 5px;
         padding: 1.8em;
         line-height: 1,5;
+        display: flex;
+        flex-direction: column;
 
         .flex {
+            flex: 1;
             display: grid;
             grid-template-rows: repeat(4, auto);
             grid-template-columns: repeat(3, 1fr);
@@ -156,10 +160,13 @@
             background: $color1;
             grid-row: 4 / 8;
             grid-column: 7 / 11;
+            display: flex;
+            flex-direction: column;
 
             .school-flex {
-                display: flex;
-                flex-direction: column;
+                flex: 1;
+                display: grid;
+                grid-template-rows: 1fr 1fr;
         
                 .school-item {
                     background: $color2;
@@ -169,16 +176,12 @@
                     margin-bottom: .7em;
                     padding: 1em;
                     
-                    div {
-                        justify-content: space-around;
+                    p {
+                        font-size: 1.3rem;
+                        margin-bottom: 8px;
                         
-                        p {
-                            font-size: 1.3rem;
-                            margin-bottom: 8px;
-                            
-                            span {
-                                font-weight: $bold;
-                            }
+                        span {
+                            font-weight: $bold;
                         }
                     }
                 }
@@ -189,10 +192,13 @@
             background: $color1;
             grid-row: 6 / 12;
             grid-column: 1 / 5;
+            display: flex;
+            flex-direction: column;
 
             .exp-flex {
-                display: flex;
-                flex-direction: column;
+                flex: 1;
+                display: grid;
+                grid-template-rows: repeat(3, 1fr);
         
                 div {
                     background: $color2;
@@ -233,16 +239,20 @@
             background: $color1;
             grid-row: 8 / 12;
             grid-column: 5 / 11;
+            display: flex;
+            flex-direction: column;
 
             .six-grid {
                 display: grid;
-                grid-template-rows: repeat(2, auto);
+                height: 100%;
+                grid-template-rows: repeat(2, 1fr);
                 grid-template-columns: repeat(2, 1fr);
                 grid-gap: 1.5em;
+                flex: 1;
 
                 .six-grid-item {
                     background: $color2;
-                    color: $white;
+                    color: $true-black;
                     border-radius: 5px;
                     padding: 1em;
 
@@ -262,24 +272,6 @@
                     &.one {
                         grid-row: 1 / 2;
                         grid-column: 1 / 2;
-                        position: relative;
-                        background: url(../../../assets/images/coffee.jpg);
-                        background-size: cover;
-                        background-position: top left;
-                        z-index: 1;
-
-                        &:before {
-                            content: "";
-                            position: absolute;
-                            z-index: -1;
-                            top: 0;
-                            bottom: 0;
-                            left: 0;
-                            right: 0;
-                            display: block;
-                            background: $black;
-                            opacity: .8;
-                        }
                     }
 
                     &.two {

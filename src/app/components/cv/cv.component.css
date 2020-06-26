@@ -4,6 +4,7 @@
     grid-template-rows: repeat(11, minmax(0, 1fr));
     grid-template-columns: repeat(10, 1fr);
     grid-gap: 1em;
+    zoom: 82.5%;
   }
   .grid-item {
     font-family: "Raleway", sans-serif;
@@ -12,8 +13,11 @@
     border-radius: 5px;
     padding: 1.8em;
     line-height: 1,5;
+    display: flex;
+    flex-direction: column;
   }
   .grid-item .flex {
+    flex: 1;
     display: grid;
     grid-template-rows: repeat(4, auto);
     grid-template-columns: repeat(3, 1fr);
@@ -124,10 +128,13 @@
     background: #c4d6b0;
     grid-row: 4 / 8;
     grid-column: 7 / 11;
-  }
-  .grid-item.three .school-flex {
     display: flex;
     flex-direction: column;
+  }
+  .grid-item.three .school-flex {
+    flex: 1;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
   }
   .grid-item.three .school-flex .school-item {
     background: #697f7c9c;
@@ -137,24 +144,24 @@
     margin-bottom: .7em;
     padding: 1em;
   }
-  .grid-item.three .school-flex .school-item div {
-    justify-content: space-around;
-  }
-  .grid-item.three .school-flex .school-item div p {
+  .grid-item.three .school-flex .school-item p {
     font-size: 1.3rem;
     margin-bottom: 8px;
   }
-  .grid-item.three .school-flex .school-item div p span {
+  .grid-item.three .school-flex .school-item p span {
     font-weight: 800;
   }
   .grid-item.four {
     background: #c4d6b0;
     grid-row: 6 / 12;
     grid-column: 1 / 5;
-  }
-  .grid-item.four .exp-flex {
     display: flex;
     flex-direction: column;
+  }
+  .grid-item.four .exp-flex {
+    flex: 1;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
   }
   .grid-item.four .exp-flex div {
     background: #697f7c9c;
@@ -187,16 +194,20 @@
     background: #c4d6b0;
     grid-row: 8 / 12;
     grid-column: 5 / 11;
+    display: flex;
+    flex-direction: column;
   }
   .grid-item.six .six-grid {
     display: grid;
-    grid-template-rows: repeat(2, auto);
+    height: 100%;
+    grid-template-rows: repeat(2, 1fr);
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 1.5em;
+    flex: 1;
   }
   .grid-item.six .six-grid .six-grid-item {
     background: #697f7c9c;
-    color: #f5f5f5;
+    color: #1a1a1a;
     border-radius: 5px;
     padding: 1em;
   }
@@ -213,23 +224,6 @@
   .grid-item.six .six-grid .six-grid-item.one {
     grid-row: 1 / 2;
     grid-column: 1 / 2;
-    position: relative;
-    background: url(../../../assets/images/coffee.jpg);
-    background-size: cover;
-    background-position: top left;
-    z-index: 1;
-  }
-  .grid-item.six .six-grid .six-grid-item.one:before {
-    content: "";
-    position: absolute;
-    z-index: -1;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    display: block;
-    background: #353535;
-    opacity: .8;
   }
   .grid-item.six .six-grid .six-grid-item.two {
     grid-row: 1 / 2;
