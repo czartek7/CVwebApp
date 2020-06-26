@@ -1,11 +1,11 @@
 
-<div class="grid">
+<div class="cv">
 
-    <div class="grid-item one"> 
+    <div class="cv-item one"> 
         <h1>Umiejętności</h1>
-        <div class="flex">
+        <div class="skills">
 
-            <div class="flex-item one">
+            <div class="skills-item one">
                 <p>Back-end</p>
                 <br>
                 <div>
@@ -14,7 +14,7 @@
                 </div>
             </div>
 
-            <div class="flex-item two">
+            <div class="skills-item two">
                 <p>Front-end</p>
                 <div>
                     <i class="fab fa-html5" [routerLink]="[{ outlets: { cvoutlet: ['html5'] } }]" routerLinkActive="active" skipLocationChange></i>
@@ -28,7 +28,7 @@
                 </div>
             </div>
 
-            <div class="flex-item three">
+            <div class="skills-item three">
                 <p>Ide</p>
                 <div>
                     <i class="svg" [routerLink]="[{ outlets: { cvoutlet: ['vscode'] } }]" routerLinkActive="active" skipLocationChange>
@@ -41,7 +41,7 @@
                 </div>
             </div>
 
-            <div class="flex-item four">
+            <div class="skills-item four">
                 <p>Biblioteki</p>
                 <div>
                     <i class="svg" [routerLink]="[{ outlets: { cvoutlet: ['tensorflow'] } }]" routerLinkActive="active" skipLocationChange>
@@ -56,7 +56,7 @@
                 </div>       
             </div>
 
-            <div class="flex-item five">
+            <div class="skills-item five">
                 <p>Dodatkowe</p>
                 <div>
                     <i class="fab fa-linux" [routerLink]="[{ outlets: { cvoutlet: ['linux'] } }]" routerLinkActive="active" skipLocationChange></i>
@@ -66,7 +66,7 @@
                 </div>
             </div>
 
-            <div class="flex-item six">
+            <div class="skills-item six">
                 <p>Języki</p>
                 <div>
                     <i [routerLink]="[{ outlets: { cvoutlet: ['eng'] } }]" routerLinkActive="active" skipLocationChange>Hello!</i>
@@ -77,21 +77,21 @@
         </div>
     </div>
 
-    <div class="grid-item two">
+    <div class="cv-item two">
         <router-outlet name="cvoutlet"></router-outlet>
     </div>
 
-    <div class="grid-item three">
+    <div class="cv-item three">
         <h1>Wykształcenie</h1>
-        <div class="school-flex">
-            <div class="school-item">              
+        <div class="education">
+            <div class="education-item">              
                 <p>
                     <span>PAŹDZIERNIK 2019 - NADAL</span>
                 </p>
                 <p>Uniwersytet Łódzki, Wydział Fizyki i Informatyki Stosowanej</p>
                 <p>Kierunek: <span>Informatyka II stopnia</span>, specjalność „Sztuczna Inteligencja”</p>           
             </div>
-            <div class="school-item"> 
+            <div class="education-item"> 
                 <p>
                     <span>PAŹDZIERNIK 2016 – CZERWIEC 2019</span>
                 </p>
@@ -101,10 +101,10 @@
         </div>
     </div>
 
-    <div class="grid-item four">
+    <div class="cv-item four">
         <h1>Doświadczenie</h1>
-        <div class="exp-flex">
-            <div>
+        <div class="exp">
+            <div class="exp-item">
                 <p>
                     MARZEC 2018 - LIPIEC 2018
                 </p>
@@ -117,7 +117,7 @@
                     współpracy z chińską prowincją Chengdu.
                 </p>
             </div>
-            <div>
+            <div class="exp-item">
                 <p>
                     PAŹDZIERNIK 2017 - MARZEC 2018
                 </p>
@@ -129,7 +129,7 @@
                     oraz pełniłem dyżury w biurze.
                 </p>
             </div>
-            <div>
+            <div class="exp-item">
                 <p>
                     PAŹDZIERNIK 2016 - CZERWIEC 2019
                 </p>
@@ -145,21 +145,23 @@
         </div>
     </div>
 
-    <div class="grid-item five">five</div>
+    <div class="cv-item five"></div>
 
-    <div class="grid-item six">
+    <div class="cv-item six">
         <h1>Zainteresowania</h1>
-        <div class="six-grid">
-            <div class="six-grid-item one">
+        <div class="interests">
+            <div class="interests-item one img">
                 <h1>Kawa</h1>
             </div>
-            <div class="six-grid-item two">
+            <div class="interests-item two">
                 <h1>Szachy</h1>
+                <p>
+                </p>
             </div>
-            <div class="six-grid-item three">
+            <div class="interests-item three">
                 <h1>Podróże</h1>
             </div>
-            <div class="six-grid-item four">
+            <div class="interests-item four">
                 <h1>Gry komputerowe</h1>
             </div>
         </div> 
