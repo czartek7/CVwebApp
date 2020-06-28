@@ -42,7 +42,6 @@ body {
   align-items: center;
   background: #4f4f4f;
   height: 8vh;
-  background: #4f4f4f;
   padding: 2.5em 0em 2.5em 0em;
   z-index: 600;
 }
@@ -181,6 +180,6 @@ body {
 
 .main-content {
   font-size: 1.2rem;
-  height: 90vh;
+  height: auto;
   padding-top: 10vh;
 }
