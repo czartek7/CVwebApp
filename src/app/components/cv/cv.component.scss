@@ -353,12 +353,14 @@
         grid-template-rows: repeat(6, auto);
         gap: 1em;
         font-size: .8em;
-        padding-top: 1em;
+        padding: 2%;
+        padding-top: 0;
     }
 
     .cv-item {
         font-family: $raleway;
         color: $true-black;
+        border-radius: 5px;
         padding: 1em;
         line-height: 1,5;
 
@@ -379,7 +381,7 @@
                 display: grid;
                 grid-template-rows: repeat(2, 1fr);
                 grid-template-columns: repeat(12, 1fr);
-                gap: 1em;
+                gap: .6em;
 
                 .skills-item {
                     padding: .2em;

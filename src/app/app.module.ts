@@ -5,7 +5,6 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MainPageComponent } from './components/main-page/main-page.component';
-import { AboutMeComponent } from './components/about-me/about-me.component';
 import { CvComponent } from './components/cv/cv.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { JavaComponent } from './skills-comp/java/java.component';
@@ -34,7 +33,6 @@ import { PandasComponent } from './skills-comp/pandas/pandas.component';
   declarations: [
     AppComponent,
     MainPageComponent,
-    AboutMeComponent,
     CvComponent,
     ContactComponent,
     JavaComponent,

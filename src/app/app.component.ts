@@ -12,6 +12,11 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'AngularCV';
   name:string = 'Czarek';
+
+  ///////////////////////////////
+  // Hamburger icon slide
+  ///////////////////////////////
+
   x = window.matchMedia("(max-width: 768px)");
   y = window.matchMedia("(min-width: 768px)");
 
@@ -37,6 +42,7 @@ export class AppComponent {
     burger.classList.toggle('burger-animation');
   }
   }
+
 }
 
 
