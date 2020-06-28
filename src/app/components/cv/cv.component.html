@@ -7,9 +7,14 @@
 
             <div class="skills-item one">
                 <p>Back-end</p>
-                <br>
-                <div>
+                <div class="desktop">
                     <i class="fab fa-java" [routerLink]="[{ outlets: { cvoutlet: ['java'] } }]" routerLinkActive="active" skipLocationChange></i>
+                    <i class="fab fa-python" [routerLink]="[{ outlets: { cvoutlet: ['python'] } }]" routerLinkActive="active" skipLocationChange></i>
+                </div>
+                <div class="mobile">
+                    <i class="fab fa-java" [routerLink]="[{ outlets: { cvoutlet: ['java'] } }]" routerLinkActive="active" skipLocationChange></i>
+                </div>
+                <div class="mobile">
                     <i class="fab fa-python" [routerLink]="[{ outlets: { cvoutlet: ['python'] } }]" routerLinkActive="active" skipLocationChange></i>
                 </div>
             </div>
@@ -30,7 +35,7 @@
 
             <div class="skills-item three">
                 <p>Ide</p>
-                <div>
+                <div class="desktop">
                     <i class="svg" [routerLink]="[{ outlets: { cvoutlet: ['vscode'] } }]" routerLinkActive="active" skipLocationChange>
                         <object data="../../../assets/images/vscode.svg" type="image/svg+xml"></object>
                     </i>
@@ -38,6 +43,17 @@
                     <i class="svg" [routerLink]="[{ outlets: { cvoutlet: ['intellij'] } }]" routerLinkActive="active" skipLocationChange>
                         <object data="../../../assets/images/intellij.svg" type="image/svg+xml"></object>
                     </i>
+                </div>
+                <div class="mobile">
+                    <i class="svg" [routerLink]="[{ outlets: { cvoutlet: ['vscode'] } }]" routerLinkActive="active" skipLocationChange>
+                        <object data="../../../assets/images/vscode.svg" type="image/svg+xml"></object>
+                    </i>
+                    <i class="svg" [routerLink]="[{ outlets: { cvoutlet: ['intellij'] } }]" routerLinkActive="active" skipLocationChange>
+                        <object data="../../../assets/images/intellij.svg" type="image/svg+xml"></object>
+                    </i>
+                </div>
+                <div class="mobile">
+                    <i class="fab fa-android" [routerLink]="[{ outlets: { cvoutlet: ['androids'] } }]" routerLinkActive="active" skipLocationChange></i>
                 </div>
             </div>
 
@@ -58,9 +74,17 @@
 
             <div class="skills-item five">
                 <p>Dodatkowe</p>
-                <div>
+                <div class="desktop">
                     <i class="fab fa-linux" [routerLink]="[{ outlets: { cvoutlet: ['linux'] } }]" routerLinkActive="active" skipLocationChange></i>
                     <i class="fab fa-git" [routerLink]="[{ outlets: { cvoutlet: ['git'] } }]" routerLinkActive="active" skipLocationChange></i>
+                    <i class="far fa-lightbulb" [routerLink]="[{ outlets: { cvoutlet: ['agile'] } }]" routerLinkActive="active" skipLocationChange></i>
+                    <i class="fas fa-database" [routerLink]="[{ outlets: { cvoutlet: ['sql'] } }]" routerLinkActive="active" skipLocationChange></i>
+                </div>
+                <div class="mobile">
+                    <i class="fab fa-linux" [routerLink]="[{ outlets: { cvoutlet: ['linux'] } }]" routerLinkActive="active" skipLocationChange></i>
+                    <i class="fab fa-git" [routerLink]="[{ outlets: { cvoutlet: ['git'] } }]" routerLinkActive="active" skipLocationChange></i>
+                </div>
+                <div class="mobile">
                     <i class="far fa-lightbulb" [routerLink]="[{ outlets: { cvoutlet: ['agile'] } }]" routerLinkActive="active" skipLocationChange></i>
                     <i class="fas fa-database" [routerLink]="[{ outlets: { cvoutlet: ['sql'] } }]" routerLinkActive="active" skipLocationChange></i>
                 </div>
@@ -68,8 +92,14 @@
 
             <div class="skills-item six">
                 <p>Języki</p>
-                <div>
+                <div class="desktop">
                     <i [routerLink]="[{ outlets: { cvoutlet: ['eng'] } }]" routerLinkActive="active" skipLocationChange>Hello!</i>
+                    <i [routerLink]="[{ outlets: { cvoutlet: ['chinese'] } }]" routerLinkActive="active" skipLocationChange>你好!</i>
+                </div>
+                <div class="mobile">
+                    <i [routerLink]="[{ outlets: { cvoutlet: ['eng'] } }]" routerLinkActive="active" skipLocationChange>Hello!</i>
+                </div>
+                <div class="mobile">
                     <i [routerLink]="[{ outlets: { cvoutlet: ['chinese'] } }]" routerLinkActive="active" skipLocationChange>你好!</i>
                 </div>
             </div>

@@ -1,6 +1,36 @@
-.wrapper {
+.contact {
+  padding: 8%;
+  padding-top: 5%;
+  height: 80vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1em;
+  border-radius: 5px;
+  color: #353535;
+}
+
+.contact.info {
+  background: #697f7c;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact.info div {
+  flex: 1;
+  border: 2px solid red;
+}
+
+.contact.info div p i {
+  font-size: 50px;
+}
+
+.contact.info .btn-flex {
   display: flex;
   justify-content: space-around;
+}
+
+.contact.form {
+  background: #c4d6b0;
 }
 
 .btn {
@@ -10,7 +40,6 @@
   background: #f5f5f5;
   text-align: center;
   border-radius: 5px;
-  margin: 20px;
   transition: 0.3s linear;
 }
 

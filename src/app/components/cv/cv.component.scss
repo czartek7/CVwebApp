@@ -12,8 +12,10 @@
         display: grid;
         grid-template-rows: repeat(11, minmax(0, 1fr));
         grid-template-columns: repeat(10, 1fr);
-        grid-gap: 1em;
+        gap: 1em;
         zoom: 82.5%;
+        padding: 8%;
+        padding-top: 5%;
     }
 
     .cv-item {
@@ -31,7 +33,7 @@
             display: grid;
             grid-template-rows: repeat(4, auto);
             grid-template-columns: repeat(3, 1fr);
-            grid-gap: 1.5em;
+            gap: 1.5em;
             
             .skills-item {
                 padding: 1em;
@@ -51,10 +53,6 @@
                 &.one {
                     grid-row: 1 / 2;
                     grid-column: 3 / 4;
-
-                    div {
-                        padding-bottom: .8em;
-                    }
                 }
 
                 &.two {
@@ -169,7 +167,7 @@
             .education {
                 flex: 1;
                 display: grid;
-                grid-gap: 1.5em;
+                gap: 1.5em;
                 grid-template-rows: 1fr 1fr;
         
                 .education-item {
@@ -200,7 +198,7 @@
             .exp {
                 flex: 1;
                 display: grid;
-                grid-gap: 1.5em;
+                gap: 1.5em;
                 grid-template-rows: repeat(3, 1fr);
         
                 .exp-item {
@@ -244,12 +242,11 @@
             flex-direction: column;
 
             .interests {
+                flex: 1;
                 display: grid;
-                height: 100%;
                 grid-template-rows: repeat(2, 1fr);
                 grid-template-columns: repeat(2, 1fr);
-                grid-gap: 1.5em;
-                flex: 1;
+                gap: 1.5em;
 
                 .interests-item {
                     background: $color2;
@@ -338,7 +335,11 @@
             width: 65px;
             height: 65px;
         }
-    }  
+    }
+
+    .mobile {
+        display: none !important;
+    }
 }
 
 
@@ -347,20 +348,18 @@
 /////////////////////////
 
 @media screen and (max-width: 768px) {
-    .grid {
-        display: flex;
-        flex-direction: column;
-
-        div {
-            margin-top: 1em;
-            margin-bottom: 1em;
-        }
+    .cv {
+        display: grid;
+        grid-template-rows: repeat(6, auto);
+        gap: 1em;
+        font-size: .8em;
+        padding-top: 1em;
     }
 
-    .grid-item {
+    .cv-item {
         font-family: $raleway;
-        color: $black;
-        padding: 1.8em;
+        color: $true-black;
+        padding: 1em;
         line-height: 1,5;
 
         p {
@@ -369,34 +368,265 @@
     
         h1 {
             margin-bottom: .4em;
+            font-size: 1.4em;
         }
     
         &.one {
             background: $color1;
             text-align: justify;
+
+            .skills {
+                display: grid;
+                grid-template-rows: repeat(2, 1fr);
+                grid-template-columns: repeat(12, 1fr);
+                gap: 1em;
+
+                .skills-item {
+                    padding: .2em;
+                    font-size: .7em;
+                    background: $color2;
+                    border-radius: 5px;
+
+                    &.one {
+                        grid-row: 1/2;
+                        grid-column: 1/4;
+                    }
+                    &.two {
+                        grid-row: 1/2;
+                        grid-column: 4/10;
+                    }
+                    &.three {
+                        grid-row: 1/2;
+                        grid-column: 10/13;
+                    }
+                    &.four {
+                        grid-row: 2/3;
+                        grid-column: 1/5;
+                    }
+                    &.five {
+                        grid-row: 2/3;
+                        grid-column: 5/9;
+                    }
+                    &.six {
+                        grid-row: 2/3;
+                        grid-column: 9/13;
+                    }
+
+                    &.four div {
+                        padding-top: 0em;
+                        padding-bottom: 0em;
+
+                        i {
+                            font-size: 15px;
+                            font-family: $lato;
+                            font-weight: 900;
+                            font-style: normal;
+                        }
+                    }
+
+                    &.six div {
+                        padding-top: 0em;
+                        padding-bottom: 0em;
+                        padding-top: .4em;
+    
+                        i {
+                            font-size: 22px;
+                        }
+                    }
+
+                    div {
+                        padding-top: .3em;
+                        padding-bottom: .2em;
+                        display: flex;
+                        justify-content: space-around;
+                        font-size: 35px;
+    
+                        i {
+                            transition: 0.2s linear;
+    
+                            &.active {
+                                transform: scale(1.3);
+                                text-shadow: 0px 10px 20px $black;
+                                color: $white;
+                            }
+    
+                            &:focus {
+                                outline: 0;
+                                box-shadow: none!important;
+                            }
+                        }
+                    }
+                }
+            }
         }
     
         &.two {
             color: $true-black;
-            background: $color2;
+            background: $color3;
         }
     
         &.three {
             background: $color1;
+
+            .education {
+                flex: 1;
+                display: grid;
+                gap: 1em;
+                grid-template-rows: 1fr 1fr;
+        
+                .education-item {
+                    background: $color2;
+                    color: $true-black;
+                    border-radius: 5px;
+                    padding: 1em;
+                    
+                    p {
+                        font-size: 1rem;
+                        margin-bottom: 8px;
+                        
+                        span {
+                            font-weight: $bold;
+                        }
+                    }
+                }
+            }
         }
     
         &.four {
-            color: $true-black;
-            background: $color2;
+            background: $color1;
+
+            .exp {
+                flex: 1;
+                display: grid;
+                gap: 1em;
+                grid-template-rows: repeat(3, 1fr);
+        
+                .exp-item {
+                    background: $color2;
+                    color: $true-black;
+                    border-radius: 5px;
+                    padding: 1em;
+                    padding-bottom: .6em;
+
+                    h1 {
+                        font-size: 1rem;
+                        margin-bottom: 8px;
+                    }
+
+                    p {
+                        font-size: 1rem;
+                        margin-bottom: 8px;
+                        
+                        span {
+                            font-weight: $bold;
+                        }
+                    }
+                }
+            }
         }
     
         &.five {
-            color: $true-black;
-            background: $color2;
+            display: none;
         }
     
         &.six {
             background: $color1;
+
+            .interests {
+                flex: 1;
+                display: grid;
+                grid-template-rows: repeat(2, 1fr);
+                grid-template-columns: repeat(2, 1fr);
+                gap: 1em;
+
+                .interests-item {
+                    background: $color2;
+                    color: $white;
+                    border-radius: 5px;
+                    padding: 1em;
+                    display: flex;
+                    text-align: center;
+                    justify-content: center;
+                    align-items: center;
+                    background-position: top left;
+                    background-size: cover;
+                    text-shadow: 0 0 8px black;
+                    position: relative;
+                    z-index: 10;
+                    transition: all ease-in-out 0.3s;
+
+                    h1 {
+                        margin-top: .5em;
+                    }
+
+                    &:before {
+                        content: '';
+                        border-radius: 5px;
+                        display: block;
+                        background: $black;
+                        opacity: 0.8;
+                        position: absolute;
+                        top: 0;
+                        right: 0;
+                        bottom: 0;
+                        left: 0;
+                        transition: all ease-in-out 0.3s;
+                        z-index: -1;
+                    }
+
+                    &.one {
+                        grid-row: 1 / 2;
+                        grid-column: 1 / 2;
+                        background-image: url(../../../assets/images/coffee.jpg);
+                    }
+
+                    &.two {
+                        grid-row: 1 / 2;
+                        grid-column: 2 / 3;
+                        background-image: url(../../../assets/images/chess.jpg);
+                    }
+
+                    &.three {
+                        grid-row: 2 / 3;
+                        grid-column: 1 / 2;
+                        background-image: url(../../../assets/images/travel.jpg);
+                    }
+
+                    &.four {
+                        grid-row: 2 / 3;
+                        grid-column: 2 / 3;
+                        background-image: url(../../../assets/images/games.jpg);
+                    }
+                }
+            }
         }
+    }
+
+    .svg {
+        transition: 0.2s linear;
+        transition: -webkit-filter 0.2s linear;
+
+        &:hover {
+            transform: scale(1.3);
+            cursor: pointer;
+            filter: drop-shadow(0px 10px 10px $black);
+        }
+
+        &.active {
+            transform: scale(1.3);
+            filter: brightness(0) saturate(100%) invert(100%) sepia(19%) 
+            saturate(2%) hue-rotate(14deg) brightness(110%) contrast(92%) 
+            drop-shadow(0px 10px 10px $black);
+        }
+
+        object {
+            pointer-events: none;
+            width: 35px;
+            height: 35px;
+        }
+    }
+
+    .desktop {
+        display: none !important;
     }
 }
