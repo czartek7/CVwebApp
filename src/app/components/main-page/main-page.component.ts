@@ -7,12 +7,6 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MainPageComponent implements OnInit {
 
-  clickCounter:number = 0;
-
-  countClick() {
-     this.clickCounter += 1
-  }
-
   constructor() { }
 
   ngOnInit(): void {

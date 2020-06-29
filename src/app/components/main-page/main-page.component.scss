@@ -2,21 +2,63 @@
 @import "../../../colors&fonts.scss";
 
 .main-page {
+    overflow: hidden;
+    position: fixed;
     padding: 8%;
-    padding-top: 5%;
-}
-
-.clicker {
+    padding-top: 4%;
+    height: 110vh;
+    width: 100%;
     
-    span {
-        color: black;
-        background: lightgray;
-        padding: .3em;
-        cursor: pointer;
-
+    &::after {
+        content: "";
+        background: url(../../../assets/images/contact.jpg);
+        background-position: top;
+        background-size: cover;
+        opacity: 0.5;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        position: absolute;
+        z-index: -1;   
     }
 }
 
-.lorem {
-    text-align: justify;
-}
+.title {
+    text-transform: uppercase;
+    font-family: $jaapokki-enchance;
+    font-size: 5rem;
+    letter-spacing: 3px;
+    text-align: center;
+    padding-top: 1.8em;
+
+    p {
+        font-size: 3.5rem;
+    }
+    
+    span {
+      font-family: $jaapokki-subtract;
+      color: $white;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+
+    .title {
+        text-transform: uppercase;
+        font-family: $jaapokki-enchance;
+        font-size: 3rem;
+        letter-spacing: 3px;
+        text-align: center;
+        padding-top: 1em;
+    
+        p {
+            font-size: 2rem;
+        }
+        
+        span {
+          font-family: $jaapokki-subtract;
+          color: $white;
+        }
+      }
+  }
