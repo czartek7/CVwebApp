@@ -32,7 +32,7 @@ export class AppComponent {
       if (element.style.animation) {
           element.style.animation = ""
         } else {
-          element.style.animation = `navLinkFade 0.5s ease forwards ${index / 10}s`;
+          element.style.animation = `navLinkFade 0.5s ease forwards ${index / 7}s`;
         }
     });
   } if (this.y.matches) {
