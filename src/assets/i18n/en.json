@@ -56,5 +56,46 @@
         "title": "Agile",
         "p1": "Although I have never worked in a team managed by agile methodologies, I know a lot about it. The philosophy of Agile and her relatives is no stranger to me.",
         "p2": "I often use the Kanban method myself when managing my own project."
+    },
+
+    "android": {
+        "title": "Android Studio",
+        "p1": "Thanks to Android Studio I created my first mobile application in Java.",
+        "p2": "It is a bit like working on a website, except that instead of HTML and CSS you use .xml files and instead of JavaScript, Java."
+    },
+
+    "angular": {
+        "title": "Angular.io",
+        "p1": "The site you are currently browsing was created thanks to Angular!",
+        "p2": "After mastering HTML, CSS and JavaScript to the extent that allows me to create content myself, I began learning Angular along with the TypeScript language and SCSS syntax."
+    },
+
+    "bootstrap": {
+        "title": "Bootstrap",
+        "p1": "I use Bootstrap to build responsive websites, scaled to different device sizes. I know the basics of the library in its latest version - Bootstrap 4."
+    },
+
+    "chinese": {
+        "title": "Chinese",
+        "p1": "I studied Chinese at first-degree studies. Twice I attended a summer school in China, where I worked on my language skills not only in class but also during everyday activities, such as shopping or ordering food in the canteen.",
+        "p2": "I am currently presenting a level close to B1 and I am able to have a simple conversation in this language."
+    },
+
+    "css": {
+        "title": "CSS",
+        "p1": "I learned how to work with CSS style sheets together with HTML, initially operating on pure CSS3.",
+        "p2": "Over time, I began to appreciate Sass and Less solutions for nesting classes and creating variables. Today, I use both of these solutions thanks to SCSS and convenient plug-ins for Visual Studio Code."
+    },
+
+    "git": {
+        "title": "Git",
+        "p1": "I usually create projects myself, so initially I started to use Git to familiarize myself with this functionality.",
+        "p2": "Git is very useful for sharing my code with the world. Currently, I'm trying to keep the good habits by regularly uploading new projects and frequent use of commits."
+    },
+
+    "html": {
+        "title": "HTML",
+        "p1": "I started learning HTML in online courses along with CSS. I wrote my first website with one view thanks to HTML and CSS.",
+        "p2": "While coding I try to use the possibilities offered by the latest version of this language, HTML5."
     }
 }
