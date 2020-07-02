@@ -66,12 +66,12 @@
     "android": {
         "title": "Android Studio",
         "p1": "Dzięki Android Studio stworzyłem swoją pierwszą aplikację mobilną w języku Java.",
-        "p2": "Trochę przypomina to pracę nad stroną internetową, z tym że zamiast HTML i CSS używa się plików .xml a zamiast JavaScript, języka Java."
+        "p2": "Trochę przypomina to pracę nad stroną internetową, z tym, że zamiast HTML i CSS używa się plików .xml a zamiast JavaScript, języka Java."
     },
 
     "angular": {
         "title": "Angular.io",
-        "p1": "Strona którą teraz przeglądasz została stworzona właśnie dzięki Angular!",
+        "p1": "Strona, którą teraz przeglądasz, została stworzona właśnie dzięki Angular!",
         "p2": "Po opanowaniu w HTML, CSS oraz JavaScript w stopniu umożliwiającym samodzielne tworzenie treści, rozpocząłem naukę Angular, przyswajając przy okazji język TypeScript oraz składnię SCSS."
     },
 
@@ -143,7 +143,7 @@
 
     "numpy": {
         "title": "NumPy",
-        "p1": "Biblioteka NumPy jest biblioteką dodającą do Pythona bardziej zaawansowane matematycznie funkcjonalności takie jak m.in. definiowanie i wykonawanie obliczeń na macierzach, czy operowanie na bardzo małych liczbach.",
+        "p1": "Biblioteka NumPy jest biblioteką dodającą do Pythona bardziej zaawansowane matematycznie funkcjonalności, takie jak m.in. definiowanie i wykonawanie obliczeń na macierzach, czy operowanie na bardzo małych liczbach.",
         "p2": "NumPy używam wraz z Tensorflow w programach opartych na nauczaniu maszynowym."
     },
 
@@ -175,6 +175,6 @@
     "vscode": {
         "title": "Visual Studio Code",
         "p1": "Środowiska Visual Studio używam przy bardzo wielu okazjach, głównie przy tworzeniu stron internetowych.",
-        "p2": "Strona którą właśnie przeglądasz, została napisana właśnie dzięki Visual Studio Code. Wraz ze środowiskiem korzystam z kilku wtyczek ułatwiających mi pracę np. z tej kompilującej pliki .scss do .css."
+        "p2": "Strona, którą właśnie przeglądasz, została napisana właśnie dzięki Visual Studio Code. Wraz ze środowiskiem korzystam z kilku wtyczek ułatwiających mi pracę np. z tej kompilującej pliki .scss do .css."
     }
 }
