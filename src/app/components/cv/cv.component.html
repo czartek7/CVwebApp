@@ -2,7 +2,7 @@
 <div class="cv">
 
     <div class="cv-item one rFade"> 
-        <h1>Umiejętności</h1>
+        <h1>{{ 'cv.skills' | translate }}</h1>
         <div class="skills">
 
             <div class="skills-item one">
@@ -58,7 +58,7 @@
             </div>
 
             <div class="skills-item four">
-                <p>Biblioteki</p>
+                <p>{{ 'cv.libraries' | translate }}</p>
                 <div>
                     <i class="svg" [routerLink]="[{ outlets: { cvoutlet: ['tensorflow'] } }]" routerLinkActive="active" skipLocationChange>
                         <object data="../../../assets/images/tensorflow.svg" type="image/svg+xml"></object>
@@ -73,7 +73,7 @@
             </div>
 
             <div class="skills-item five">
-                <p>Dodatkowe</p>
+                <p>{{ 'cv.additional' | translate }}</p>
                 <div class="desktop">
                     <i class="fab fa-linux" [routerLink]="[{ outlets: { cvoutlet: ['linux'] } }]" routerLinkActive="active" skipLocationChange></i>
                     <i class="fab fa-git" [routerLink]="[{ outlets: { cvoutlet: ['git'] } }]" routerLinkActive="active" skipLocationChange></i>
@@ -91,7 +91,7 @@
             </div>
 
             <div class="skills-item six">
-                <p>Języki</p>
+                <p>{{ 'cv.languages' | translate }}</p>
                 <div class="desktop">
                     <i [routerLink]="[{ outlets: { cvoutlet: ['eng'] } }]" routerLinkActive="active" skipLocationChange>Hello!</i>
                     <i [routerLink]="[{ outlets: { cvoutlet: ['chinese'] } }]" routerLinkActive="active" skipLocationChange>你好!</i>
@@ -112,64 +112,59 @@
     </div>
 
     <div class="cv-item three lFade">
-        <h1>Wykształcenie</h1>
+        <h1>{{ 'cv.education' | translate }}</h1>
         <div class="education">
             <div class="education-item">              
                 <p>
-                    <span>PAŹDZIERNIK 2019 - NADAL</span>
+                    <span>{{ 'cv.date1' | translate }}</span>
                 </p>
-                <p>Uniwersytet Łódzki, Wydział Fizyki i Informatyki Stosowanej</p>
-                <p>Kierunek: <span>Informatyka II stopnia</span>, specjalność „Sztuczna Inteligencja”</p>           
+                <p>{{ 'cv.division1' | translate }}</p>
+                <p>{{ 'cv.major' | translate }}<span>{{ 'cv.major1' | translate }}</span>{{ 'cv.add-info1' | translate }}</p>           
             </div>
-            <div class="education-item"> 
+            <div class="education-item">
                 <p>
-                    <span>PAŹDZIERNIK 2016 – CZERWIEC 2019</span>
+                    <span>{{ 'cv.date1' | translate }}</span>
                 </p>
-                <p>Uniwersytet Łódzki, Wydział Studiów Międzynarodowych i Politologicznych</p>
-                <p>Kierunek: <span>Stosunki Międzynarodowe I stopnia, specjalność „Asian Studies”</span> w jęz. angielskim</p>               
+                <p>{{ 'cv.division2' | translate }}</p>
+                <p>{{ 'cv.major' | translate }}<span>{{ 'cv.major2' | translate }}</span>{{ 'cv.add-info2' | translate }}</p>               
             </div>
         </div>
     </div>
 
     <div class="cv-item four rFade">
-        <h1>Doświadczenie</h1>
+        <h1>{{ 'cv.experience' | translate }}</h1>
         <div class="exp">
             <div class="exp-item">
                 <p>
-                    MARZEC 2018 - LIPIEC 2018
+                    {{ 'cv.date3' | translate }}
                 </p>
                 <h1>
-                    <span>Urząd Marszałkowski w Łodzi — Departament Promocji i Współpracy Zagranicznej</span>
+                    <span>{{ 'cv.name1' | translate }}</span>
                 </h1>
                 <p>
-                    Do moich obowiązków jako stażysty należało redagowanie cotygodniowych raportów dot. polityki 
-                    zagranicznej USA oraz Chin, tłumaczenie dokumentów oraz realizacja bieżących projektów. Zazwyczaj dotyczyły one 
-                    współpracy z chińską prowincją Chengdu.
+                    {{ 'cv.desc1' | translate }}
                 </p>
             </div>
             <div class="exp-item">
                 <p>
-                    PAŹDZIERNIK 2017 - MARZEC 2018
+                    {{ 'cv.date4' | translate }}
                 </p>
                 <h1>
-                    <span>Regionalny Ośrodek Debaty Międzynarodowej</span>
+                    <span>{{ 'cv.name2' | translate }}</span>
                 </h1>
                 <p>
-                    Jako wolontariusz pomagałem przy organizacji wydarzeń promujących region, moderowałem stronę internetową 
-                    oraz pełniłem dyżury w biurze.
+                    {{ 'cv.desc2' | translate }}
                 </p>
             </div>
             <div class="exp-item">
                 <p>
-                    PAŹDZIERNIK 2016 - CZERWIEC 2019
+                    {{ 'cv.date5' | translate }}
                 </p>
                 <h1>
-                    <span>Koło Naukowe Azji Wschodniej i Pacyfiku</span>
+                    <span>{{ 'cv.name3' | translate }}</span>
                 </h1>
                 <p>
-                    W kole naukowym udzielałem się przez całą długość studiów I stopnia. Już na pierwszym roku udało nam się 
-                    zorganizować miesięczną wyprawę naukową do Tajlandii, Wietnamu, Laosu i Kambodży. Organizowaliśmy także serię 
-                    spotkań z podróżnikami w kawiarni Daleko Blisko.
+                    {{ 'cv.desc3' | translate }}
                 </p>
             </div>
         </div>
@@ -178,21 +173,21 @@
     <div class="cv-item five bFade"></div>
 
     <div class="cv-item six bFade">
-        <h1>Zainteresowania</h1>
+        <h1>{{ 'cv.interests' | translate }}</h1>
         <div class="interests">
             <div class="interests-item one img">
-                <h1>Kawa</h1>
+                <h1>{{ 'cv.coffee' | translate }}</h1>
             </div>
             <div class="interests-item two">
-                <h1>Szachy</h1>
+                <h1>{{ 'cv.chess' | translate }}</h1>
                 <p>
                 </p>
             </div>
             <div class="interests-item three">
-                <h1>Podróże</h1>
+                <h1>{{ 'cv.travel' | translate }}</h1>
             </div>
             <div class="interests-item four">
-                <h1>Gry komputerowe</h1>
+                <h1>{{ 'cv.games' | translate }}</h1>
             </div>
         </div> 
     </div>

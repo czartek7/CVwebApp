@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-
+import {TranslateService} from '@ngx-translate/core';
 
 @Component({
   selector: 'app-root',
@@ -10,6 +10,7 @@ import { Component } from '@angular/core';
 
 
 export class AppComponent {
+
   title = 'AngularCV';
   name:string = 'Czarek';
 
@@ -35,14 +36,32 @@ export class AppComponent {
           element.style.animation = `navLinkFade 0.5s ease forwards ${index / 7}s`;
         }
     });
-  } if (this.y.matches) {
-    var nav = document.querySelector('.nav-item');
-    var burger = document.querySelector('.burger');
-    nav.classList.toggle('nav-active');
-    burger.classList.toggle('burger-animation');
-  }
+    } if (this.y.matches) {
+      var nav = document.querySelector('.nav-item');
+      var burger = document.querySelector('.burger');
+      nav.classList.toggle('nav-active');
+      burger.classList.toggle('burger-animation');
+    }
   }
 
+  ////////////////////////
+  // ngx-translate
+  ////////////////////////
+
+  constructor(private translate: TranslateService) {
+    translate.setDefaultLang('pl');
+  }
+
+  switchLanguage() {
+
+    var current = this.translate.currentLang
+
+    if (current == 'en') {
+      this.translate.use('pl');
+    } else {
+      this.translate.use('en');
+    } 
+  }
 }
 
 

@@ -1,0 +1,60 @@
+{
+	"nav": {
+		"contact": "Contact",
+		"cv": "CV",
+		"main": "Home"
+    },
+    
+    "cv": {
+        "skills": "Skills",
+        "education": "Education",
+        "experience": "Experience",
+        "interests": "Interests",
+
+        "libraries": "Libraries",
+        "additional": "Additional",
+        "languages": "Languages",
+
+        "major": "Major: ",
+        
+        "date1": "OCTOBER 2019 - STILL",
+        "division1": "University of Lodz, Faculty of Physics and Applied Informatics",
+        "major1": "2nd degree Computer Science",
+        "add-info1": ", specialty „Artificial Intelligence”",
+
+        "date2": "OCTOBER 2016 - JUNE 2019",
+        "division2": "University of Lodz, Faculty of International and Political Studies",
+        "major2": "1st degree International Relations, specialization: „Asian Studies”",
+        "add-info2": " in English",
+
+        "date3": "MARCH 2018 - JULY 2018",
+        "date4": "OCTOBER 2017 - MARCH 2018",
+        "date5": "OCTOBER 2016 - JUNE 2019",
+
+        "name1": "Marshal's Office in Łodz - Department of Promotion and International Cooperation",
+        "name2": "Regional Center for International Debate",
+        "name3": "East Asian Pacific Science Club",
+
+        "desc1": "Amongst my duties as an intern were editing weekly reports on US and China foreign policy, translating documents and carrying out ongoing projects. Usually they concerned cooperation with the Chinese province of Chengdu.",
+        "desc2": "As a volunteer, I helped organize events promoting the region, moderated the website and held duty at the office.",
+        "desc3": "I have been involved in the science club activities throughout the entire length of first degree studies. Already in the first year we organized a monthly scientific expedition to Thailand, Vietnam, Laos and Cambodia. We also organized a series of meetings with travelers at the Daleko Blisko cafe.",
+
+        "coffee": "Coffee",
+        "chess": "Chess",
+        "travel": "Travelling",
+        "games": "Computer Games"
+    },
+
+    "default": {
+        "click": "Click the icon ",
+        "above": "above",
+        "left": "on the left",
+        "more": "to learn more"
+    },
+
+    "agile": {
+        "title": "Agile",
+        "p1": "Although I have never worked in a team managed by agile methodologies, I know a lot about it. The philosophy of Agile and her relatives is no stranger to me.",
+        "p2": "I often use the Kanban method myself when managing my own project."
+    }
+}

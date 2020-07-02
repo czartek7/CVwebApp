@@ -1,12 +1,14 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
-
+import { NgModule } from '@angular/core'
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+
+// Main components
 import { MainPageComponent } from './components/main-page/main-page.component';
 import { CvComponent } from './components/cv/cv.component';
 import { ContactComponent } from './components/contact/contact.component';
+
+// CV components
 import { JavaComponent } from './skills-comp/java/java.component';
 import { PythonComponent } from './skills-comp/python/python.component';
 import { DefaultComponent } from './skills-comp/default/default.component';
@@ -28,6 +30,11 @@ import { SqlComponent } from './skills-comp/sql/sql.component';
 import { EngComponent } from './skills-comp/eng/eng.component';
 import { ChineseComponent } from './skills-comp/chinese/chinese.component';
 import { PandasComponent } from './skills-comp/pandas/pandas.component';
+
+// ngx-translate
+import {TranslateLoader, TranslateModule} from '@ngx-translate/core';
+import {TranslateHttpLoader} from '@ngx-translate/http-loader';
+import {HttpClient, HttpClientModule} from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -59,10 +66,21 @@ import { PandasComponent } from './skills-comp/pandas/pandas.component';
   ],
   imports: [
     BrowserModule,
-    BrowserAnimationsModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+        TranslateModule.forRoot({
+            loader: {
+                provide: TranslateLoader,
+                useFactory: HttpLoaderFactory,
+                deps: [HttpClient]
+            }
+        })
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
+export function HttpLoaderFactory(http: HttpClient) {
+  return new TranslateHttpLoader(http);
+}

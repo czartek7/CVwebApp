@@ -1,3 +1,27 @@
+.comp {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+.fade {
+  animation-name: FadeIn;
+}
+
+@keyframes FadeIn {
+  from {
+    opacity: 0;
+    transform: translateZ(100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateZ(0%);
+  }
+}
+
 p {
   margin-bottom: 15px;
 }
