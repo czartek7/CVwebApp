@@ -5,6 +5,8 @@ p {
 h1 {
   line-height: 1.2;
   margin-bottom: .4em;
+  text-align: left;
+  justify-content: left;
 }
 
 @media screen and (min-width: 768px) {
