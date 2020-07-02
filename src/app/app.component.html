@@ -16,10 +16,10 @@
       <a href="#" routerLink="/contact" routerLinkActive="active">{{ 'nav.contact' | translate }}</a>
     </li>
     <li>
-      <div class="switch switch--horizontal" (click)="switchLanguage()">
-        <input id="radio-a" type="radio" name="first-switch" checked="checked" />
+      <div class="switch switch--horizontal">
+        <input id="radio-a" type="radio" name="first-switch" checked="checked" (click)="switchLanguage()"/>
         <label for="radio-a">Pl</label>
-        <input id="radio-b" type="radio" name="first-switch" />
+        <input id="radio-b" type="radio" name="first-switch" (click)="switchLanguage()"/>
         <label for="radio-b">En</label>
         <span class="toggle-outside">
           <span class="toggle-inside"></span>

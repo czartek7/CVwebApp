@@ -33,7 +33,7 @@
 
         "name1": "Marshal's Office in Łodz - Department of Promotion and International Cooperation",
         "name2": "Regional Center for International Debate",
-        "name3": "East Asian Pacific Science Club",
+        "name3": "East Asia and Pacific Science Club",
 
         "desc1": "Amongst my duties as an intern were editing weekly reports on US and China foreign policy, translating documents and carrying out ongoing projects. Usually they concerned cooperation with the Chinese province of Chengdu.",
         "desc2": "As a volunteer, I helped organize events promoting the region, moderated the website and held duty at the office.",
@@ -43,6 +43,11 @@
         "chess": "Chess",
         "travel": "Travelling",
         "games": "Computer Games"
+    },
+
+    "contact": {
+        "title1": "Let's stay in touch!",
+        "title2": "My social media:"
     },
 
     "default": {
@@ -87,6 +92,12 @@
         "p2": "Over time, I began to appreciate Sass and Less solutions for nesting classes and creating variables. Today, I use both of these solutions thanks to SCSS and convenient plug-ins for Visual Studio Code."
     },
 
+    "eng": {
+        "title": "English",
+        "p1": "I learned English since I was a child, first at a language school, then with my dad, and finally at school and with the help of any pop culture works available in that language. I also completed a course led in English - Asian Studies.",
+        "p2": "Currently, I can communicate fluently in English and work in this language without any problems."
+    },
+
     "git": {
         "title": "Git",
         "p1": "I usually create projects myself, so initially I started to use Git to familiarize myself with this functionality.",
@@ -97,5 +108,73 @@
         "title": "HTML",
         "p1": "I started learning HTML in online courses along with CSS. I wrote my first website with one view thanks to HTML and CSS.",
         "p2": "While coding I try to use the possibilities offered by the latest version of this language, HTML5."
+    },
+
+    "intellij": {
+        "title": "IntelliJ",
+        "p1": "I use the environment from JetBrains to work on Java code practically since the beginning of my programming journey.",
+        "p2": "I can work with the tools such as Gradle and Maven, Mockito and Cucumbre test software, and SQL database support."
+    },
+
+    "java": {
+        "title": "Java",
+        "p1": "I started using that language while studying. I have built several projects using Java, including a binary tree and a program that counts the minimum of one variable function. I also created a fully working mobile application for Android.",
+        "p2": "For all those projects, feel free to visit my ",
+        "href": "Github"
+    },
+
+    "js": {
+        "title": "JavaScript",
+        "p1": "I used Javascript for the first time, implementing a clock on one of my first websites.",
+        "p2": "A lot has changed since then. On this page, JavaScript (in fact his older brother - TypeScript) is responsible for the slide-out navigation menu in the mobile version, translation support and subpage redirect."
+    },
+
+    "linux": {
+        "title": "Linux",
+        "p1": "I use my MacBook on a daily basis, so I'm familiar with Unix-based device console support.",
+        "p2": "I can use basic commands, install software and perform operations on files and folders in the terminal."
+    },
+
+    "nodejs": {
+        "title": "Node.js",
+        "p1": "I use Node.js functionality along with Angular.",
+        "p2": "Thanks to Node.js I can create a local server on which I observe the effects of my work on the application or create a new component with just one simple command in the terminal."
+    },
+
+    "numpy": {
+        "title": "NumPy",
+        "p1": "The NumPy library is a library that adds more mathematically advanced functionalities to Python, such as defining and performing calculations on matrices, or operating on very small numbers.",
+        "p2": "I use NumPy together with Tensorflow in machine learning programs."
+    },
+
+    "pandas": {
+        "title": "Pandas",
+        "p1": "Pandas is also a Python library responsible for conducting operations on databases.",
+        "p2": "I mainly use it to work with large databases needed for machine learning."
+    },
+
+    "python": {
+        "title": "Python",
+        "p1": "Python is the language I started my programming adventure with. In Python I learned how to create variables, iterate through loops and create functions.",
+        "p2": "I still use python today in machine learning. I appreciate this language for its simple syntax and a large number of useful libraries."
+    },
+
+    "sql": {
+        "title": "SQL",
+        "p1": "I learned the SQL language working on Oracle SQL, but I also worked with solutions such as MySQL or SQLite.",
+        "p2": "Thanks to a similar syntax, I have no problem working in SQL created by other companies."
+    },
+
+    "tf": {
+        "title": "TensorFlow",
+        "p1": "I use the TensorFlow library to create machine learning based applications. I started using it during my studies before choosing the Machine Learning specialization.",
+        "p2": "Samples of what I create with TensorFlow are available on my ",
+        "href": "Github"
+    },
+
+    "vscode": {
+        "title": "Visual Studio Code",
+        "p1": "I use the Visual Studio environment on many occasions, mainly when creating websites.",
+        "p2": "The page you are currently browsing was written in Visual Studio Code. Along with the environment I use several plugins to help me with my work, e.g. the one that compiles .scss files into .css."
     }
 }

@@ -108,6 +108,7 @@ body {
 .switch {
   width: 12rem;
   position: relative;
+  zoom: 110%;
 }
 
 .switch input {
@@ -132,10 +133,10 @@ body {
 }
 
 .switch label {
-  color: #fff;
+  color: #f5f5f5;
   opacity: 0.33;
   transition: opacity 0.25s ease;
-  cursor: pointer;
+  pointer-events: none;
 }
 
 .switch .toggle-outside {

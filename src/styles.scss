@@ -112,6 +112,7 @@ body {
     list-style: none;
     width: 10em;
     text-align: center;
+    //border: solid 1px red;
   }
 }
 
@@ -131,6 +132,7 @@ body {
 .switch {
   width: 12rem;
   position: relative;
+  zoom: 110%;
 
   input {
     position: absolute;
@@ -154,10 +156,10 @@ body {
   }
 
   & label {
-    color: #fff;
+    color: $white;
     opacity: 0.33;
     transition: opacity 0.25s ease;
-    cursor: pointer;
+    pointer-events: none;
   }
 
   & .toggle-outside {

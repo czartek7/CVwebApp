@@ -45,6 +45,11 @@
         "games": "Gry Komputerowe"
     },
 
+    "contact": {
+        "title1": "Zostańmy w kontakcie!",
+        "title2": "Moje sieci społecznościowe:"
+    },
+
     "default": {
         "click": "Kliknij w ikonę ",
         "above": "powyżej",
@@ -64,13 +69,19 @@
         "p2": "Trochę przypomina to pracę nad stroną internetową, z tym że zamiast HTML i CSS używa się plików .xml a zamiast JavaScript, języka Java."
     },
 
+    "angular": {
+        "title": "Angular.io",
+        "p1": "Strona którą teraz przeglądasz została stworzona właśnie dzięki Angular!",
+        "p2": "Po opanowaniu w HTML, CSS oraz JavaScript w stopniu umożliwiającym samodzielne tworzenie treści, rozpocząłem naukę Angular, przyswajając przy okazji język TypeScript oraz składnię SCSS."
+    },
+
     "bootstrap": {
         "title": "Bootstrap",
         "p1": "Bootstrap służy mi do budowania responsywnych stron internetowych, skalowanych pod różne rozmiary urządzeń. Znam podstawy biblioteki w jej najnowszej wersji - Bootstrap 4."
     },
 
     "chinese": {
-        "title": "Chinese",
+        "title": "Język chiński",
         "p1": "Języka chińskiego uczyłem się na studiach pierwszego stopnia. Dwa razy uczestniczyłem w szkole letniej w Chinach, gdzie szlifowałem swój język nie tylko na zajęciach ale też podczas codziennych czynności, jak zakupy czy zamawianie jedzenia w stołówce.",
         "p2": "Obecnie prezentuję poziom zbliżony do B1 i jestem w stanie przeprowadzić prostą rozmowę w tym języku."
     },
@@ -82,7 +93,7 @@
     },
 
     "eng": {
-        "title": "English",
+        "title": "Język angielski",
         "p1": "Języka angielskiego uczyłem się od dziecka, najpierw w szkole językowej, potem razem z moim tatą, a następnie w szkole i z pomocą wszelkich dzieł popkultury dostępnych w tym języku. Ukończyłem również kierunek prowadzony w pełni po angielsku - Asian Studies.",
         "p2": "Obecnie potrafię płynnie komunikować się po angielsku i bez problemu pracować w tym języku."
     },
@@ -97,5 +108,73 @@
         "title": "HTML",
         "p1": "Języka HTML zacząłem uczyć się na kursach internetowych, wraz z CSS. Swoją pierwszą stronę internetową, zawierającą jeden widok, napisałem właśnie dzięki HTML i CSS.",
         "p2": "Na co dzień staram się korzystać z możliwości jakie daje ostatnia wersja tego języka, czyli HTML5."
+    },
+
+    "intellij": {
+        "title": "IntelliJ",
+        "p1": "Środowiska od JetBrains używam do pracy nad kodem Javy praktycznie od początku swojej przygody z programowaniem.",
+        "p2": "Potrafię tutaj korzystać m.in. z narzędzi takich jak Gradle oraz Maven, oprogramowania testowego Mockito oraz Cucumbre i ze wsparcia dla baz danych w języku SQL."
+    },
+
+    "java": {
+        "title": "Java",
+        "p1": "Języka Java zacząłem używać na studiach. Zrealizowałem w nim kilka projektów, w tym drzewo binarne oraz program liczący minimum funkcji jednej zmiennej. Stworzyłem w niej także w pełni działającą aplikację mobilną na system Android.",
+        "p2": "Po wszystkie te projekty zapraszam na mojego",
+        "href": "Githuba"
+    },
+
+    "js": {
+        "title": "JavaScript",
+        "p1": "Języka Javascript po raz pierwszy użyłem, implementując zegar na jednej ze swoich pierwszych stron internetowych.",
+        "p2": "Od tamtej pory sporo się zmieniło. Na tej stronie JavaScript (a w sumie jego starszy brat - TypeScript) odpowiada między innymi za wysuwane menu nawigacyjne w wersji mobilnej, obsługę tłumaczenia oraz za przekierowywanie do odpowiednich podstron."
+    },
+
+    "linux": {
+        "title": "Linux",
+        "p1": "Na codzień do pracy z kodem używam Macbooka, więc nie jest mi obca obsługa konsoli urządzeń opartych na Unixie.",
+        "p2": "Potrafię korzystać z podstawowych komend, instalować oprogramowanie i przeprowadzać operacje na plikach i folderach w terminalu."
+    },
+
+    "nodejs": {
+        "title": "Node.js",
+        "p1": "Funkjonalności Node.js używam wraz z Angular.",
+        "p2": "Dzięki Node.js mogę stworzyć lokalny serwer na którym obserwuję efekt swoich prac nad aplikacją lub stworzyć nowy komponent zaledwie jedną, prostą komendą w terminalu."
+    },
+
+    "numpy": {
+        "title": "NumPy",
+        "p1": "Biblioteka NumPy jest biblioteką dodającą do Pythona bardziej zaawansowane matematycznie funkcjonalności takie jak m.in. definiowanie i wykonawanie obliczeń na macierzach, czy operowanie na bardzo małych liczbach.",
+        "p2": "NumPy używam wraz z Tensorflow w programach opartych na nauczaniu maszynowym."
+    },
+
+    "pandas": {
+        "title": "Pandas",
+        "p1": "Pandas również jest biblioteką Pythona służącą do tworzenia i operowania na bazach danych.",
+        "p2": "Używam jej głównie do pracy z dużymi bazami danych potrzebnymi przy nauczaniu maszynowym."
+    },
+
+    "python": {
+        "title": "Python",
+        "p1": "Python jest językiem od którego zacząłem swoją przygodę z programowaniem. To na nim nauczyłem się tworzyć zmienne, iterować przez pętle oraz tworzyć funkcje.",
+        "p2": "Pythona używam do dzisiaj m.in. w nauczaniu maszynowym. Cenię sobie ten język za jego prostą i czytelną składnię oraz dużą ilość przydatnych bibliotek."
+    },
+
+    "sql": {
+        "title": "SQL",
+        "p1": "Języka SQL uczyłem się na podstawie Oracle SQL, ale pracowałem też z rozwiązaniami takimi jak MySQL czy SQLite.",
+        "p2": "Dzięki zbliżonemu syntaxowi nie mam problemu z pracą w języku SQL tworzonym przez inne firmy."
+    },
+
+    "tf": {
+        "title": "TensorFlow",
+        "p1": "Biblioteki TensorFlow używam do tworzenia aplikacji opartych na nauczaniu maszynowym. Zacząłem jej używać na studiach jeszcze zanim wybrałem specjalizację Machine Learning.",
+        "p2": "Próbki tego co tworzę dzięki TensorFlow dostępne są na moim ",
+        "href": "Githubie"
+    },
+
+    "vscode": {
+        "title": "Visual Studio Code",
+        "p1": "Środowiska Visual Studio używam przy bardzo wielu okazjach, głównie przy tworzeniu stron internetowych.",
+        "p2": "Strona którą właśnie przeglądasz, została napisana właśnie dzięki Visual Studio Code. Wraz ze środowiskiem korzystam z kilku wtyczek ułatwiających mi pracę np. z tej kompilującej pliki .scss do .css."
     }
 }
