@@ -91,7 +91,8 @@ body {
   font-family: $jaapokki-regular;
   display: flex;
   justify-content: space-around;
-  width: 40%;
+  width: 45%;
+  //border: 1px red solid;
 
   a {
     color: $medium-gray;
@@ -230,8 +231,11 @@ body {
 }
 
 @media screen and (min-width: 768px) {
-  .mobile {display: none;}
-  
+  .mobile-only {display: none;}
+
+  .nav-item {
+    padding-left: 10em;
+  }
 }
 
 ////////////////////
@@ -240,7 +244,8 @@ body {
 
 @media screen and (max-width: 1024px) {
   .nav-item {
-    width: 55%;
+    padding-left: 5em;
+    width: 70%;
   }
 }
 
@@ -268,6 +273,7 @@ body {
   }
 
   .nav-item {
+    padding-left: 0em;
     position: absolute;
     z-index: 500;
     right: 0px;

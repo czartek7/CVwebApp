@@ -18,9 +18,9 @@
     <li (click)="navSlide()">
       <a href="#" routerLink="/contact" routerLinkActive="active">{{ 'nav.contact' | translate }}</a>
     </li>
-    <li class="mobile">
+    <li class="mobile-only">
       <div class="switch switch--horizontal">
-        <input id="radio-a" type="radio" name="first-switch" checked="checked" (click)="switchLanguage()"/>
+        <input id="radio-a" type="radio" name="first-switch" checked (click)="switchLanguage()"/>
         <label for="radio-a">Pl</label>
         <input id="radio-b" type="radio" name="first-switch" (click)="switchLanguage()"/>
         <label for="radio-b">En</label>
@@ -33,8 +33,8 @@
   <ul class="switch-item">
     <li>
       <div class="switch switch--horizontal">
-        <input id="radio-a" type="radio" name="first-switch" checked="checked" (click)="switchLanguage()"/>
-        <label for="radio-a">Pl</label>
+        <input id="radio-aa" type="radio" name="first-switch" (click)="switchLanguage()" (ngInit)="onSelect()"/>
+        <label for="radio-aa">Pl</label>
         <input id="radio-b" type="radio" name="first-switch" (click)="switchLanguage()"/>
         <label for="radio-b">En</label>
         <span class="toggle-outside">

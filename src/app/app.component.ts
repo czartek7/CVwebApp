@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import {TranslateService} from '@ngx-translate/core';
 
 @Component({
@@ -9,7 +9,7 @@ import {TranslateService} from '@ngx-translate/core';
 
 
 
-export class AppComponent {
+export class AppComponent implements OnInit {
 
   title = 'AngularCV';
   name:string = 'Czarek';
@@ -33,7 +33,7 @@ export class AppComponent {
       if (element.style.animation) {
           element.style.animation = ""
         } else {
-          element.style.animation = `navLinkFade 0.5s ease forwards ${index / 7}s`;
+          element.style.animation = `navLinkFade 0.5s ease forwards ${index / 9}s`;
         }
     });
     } if (this.y.matches) {
@@ -61,6 +61,17 @@ export class AppComponent {
     } else {
       this.translate.use('en');
     } 
+  }
+
+  onSelect() {
+    if (this.y.matches) {
+      var element = <HTMLInputElement> document.getElementById("radio-aa");
+    element.setAttribute("checked", "");
+    }
+  }
+
+  ngOnInit() {
+    this.onSelect();
   }
 }
 
