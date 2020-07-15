@@ -51,6 +51,11 @@
         "title2": "My social media:"
     },
 
+    "about": {
+        "h1": "Welcome!",
+        "p": "My name is Cezary Cieśliński and I am a website creator. I study computer science at the University of Lodz. Currently I am looking for a job in which I could develop myself further as a webdeveloper. If you're an employer or recruiter, it's great. Feel free to visit the CV tab for all information about my experience and skills."
+    },
+
     "default": {
         "click": "Click the icon ",
         "above": "above",

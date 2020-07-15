@@ -1,24 +1,103 @@
 @import '../../../colors&fonts.scss';
 
-.about {
-    margin: 10%;
-    margin-bottom: 8%;
-    display: flex;
-    justify-content: space-around;
+@media screen and (min-width: 768px) {
 
-    .image {
-        height: 25em;
-        width: 25em;
-        border: $white solid 5px;
-        border-radius: 50%;
-        background-image: url(../../../assets/images/czarek.jpg);
-        background-size: cover;
-        background-position: center top;
+    .about {
+        margin: 10%;
+        margin-bottom: 8%;
+        display: flex;
+        justify-content: space-around;
+    
+        .image {
+            height: 25em;
+            width: 25em;
+            border: $white solid 5px;
+            border-radius: 50%;
+            background-image: url(../../../assets/images/czarek.jpg);
+            background-size: cover;
+            background-position: center top;
+            transition: all ease-in-out 0.3s;
+            animation-duration: 1s;
+
+            &:hover {
+                transform: scale(1.02);
+            }
+        }
+    
+        .text {
+            text-align: justify;
+            width: 50%;
+            padding: 2em 4em 0em 4em;
+            animation-duration: 1s;
+            animation-fill-mode: both;
+
+            h1 {
+                padding-bottom: 20px;
+            }
+
+            p {
+                line-height: 2;
+            }
+        }
+    } 
+}
+
+@media screen and (max-width: 768px) {
+
+    .about {
+        margin: 5%;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+
+        .image {
+            height: 18em;
+            width: 18em;
+            border: $white solid 5px;
+            border-radius: 50%;
+            background-image: url(../../../assets/images/czarek.jpg);
+            background-size: cover;
+            background-position: center top;
+            animation-duration: 1s;
+            //animation-fill-mode: both;
+        }
+
+        .text {
+            padding-top: 2em;
+            text-align: justify;
+            animation-duration: 1s;
+            animation-fill-mode: both;
+            animation-delay: 0.3s;
+        }
     }
+}
 
-    .text {
-        text-align: justify;
-        width: 50%;
-        padding: 0em 4em 0em 4em;
+.rFade {
+    animation-name: rightFadeIn;
+}
+
+.lFadeOpa {
+    animation-name: leftFadeIn;
+}
+
+@keyframes rightFadeIn {
+    from {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+@keyframes leftFadeIn {
+    from {
+        opacity: 0;
+        transform: translateX(100px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0px);
     }
 }
