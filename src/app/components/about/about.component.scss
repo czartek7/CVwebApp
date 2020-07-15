@@ -1,0 +1,24 @@
+@import '../../../colors&fonts.scss';
+
+.about {
+    margin: 10%;
+    margin-bottom: 8%;
+    display: flex;
+    justify-content: space-around;
+
+    .image {
+        height: 25em;
+        width: 25em;
+        border: $white solid 5px;
+        border-radius: 50%;
+        background-image: url(../../../assets/images/czarek.jpg);
+        background-size: cover;
+        background-position: center top;
+    }
+
+    .text {
+        text-align: justify;
+        width: 50%;
+        padding: 0em 4em 0em 4em;
+    }
+}

@@ -10,11 +10,27 @@
       <a href="#" routerLink="/main_page" routerLinkActive="active">{{ 'nav.main' | translate }}</a>
     </li>
     <li (click)="navSlide()">
+      <a href="#" routerLink="/about" routerLinkActive="active">{{ 'nav.about' | translate }}</a>
+    </li>
+    <li (click)="navSlide()">
       <a href="#" routerLink="/cv" routerLinkActive="active">{{ 'nav.cv' | translate }}</a>
     </li>
     <li (click)="navSlide()">
       <a href="#" routerLink="/contact" routerLinkActive="active">{{ 'nav.contact' | translate }}</a>
     </li>
+    <li class="mobile">
+      <div class="switch switch--horizontal">
+        <input id="radio-a" type="radio" name="first-switch" checked="checked" (click)="switchLanguage()"/>
+        <label for="radio-a">Pl</label>
+        <input id="radio-b" type="radio" name="first-switch" (click)="switchLanguage()"/>
+        <label for="radio-b">En</label>
+        <span class="toggle-outside">
+          <span class="toggle-inside"></span>
+        </span>
+      </div>
+    </li>
+  </ul>
+  <ul class="switch-item">
     <li>
       <div class="switch switch--horizontal">
         <input id="radio-a" type="radio" name="first-switch" checked="checked" (click)="switchLanguage()"/>

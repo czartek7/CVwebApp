@@ -35,6 +35,7 @@ import { PandasComponent } from './skills-comp/pandas/pandas.component';
 import {TranslateLoader, TranslateModule} from '@ngx-translate/core';
 import {TranslateHttpLoader} from '@ngx-translate/http-loader';
 import {HttpClient, HttpClientModule} from '@angular/common/http';
+import { AboutComponent } from './components/about/about.component';
 
 @NgModule({
   declarations: [
@@ -62,7 +63,8 @@ import {HttpClient, HttpClientModule} from '@angular/common/http';
     SqlComponent,
     EngComponent,
     ChineseComponent,
-    PandasComponent
+    PandasComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,

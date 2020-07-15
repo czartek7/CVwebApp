@@ -3,6 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { MainPageComponent } from './components/main-page/main-page.component'
 import { CvComponent } from './components/cv/cv.component'
 import { ContactComponent } from './components/contact/contact.component'
+import { AboutComponent } from './components/about/about.component'
 
 import { DefaultComponent } from './skills-comp/default/default.component'
 import { JavaComponent } from './skills-comp/java/java.component'
@@ -30,6 +31,7 @@ import { PandasComponent } from './skills-comp/pandas/pandas.component'
 const routes: Routes = [
   { path: '',   redirectTo: '/main_page', pathMatch: 'full' },
   { path: 'main_page', component: MainPageComponent },
+  { path: 'about', component: AboutComponent },
   { path: 'cv', component: CvComponent, children: [
     { path: '', component: DefaultComponent, outlet: "cvoutlet" },
     { path: 'java', component: JavaComponent, outlet: "cvoutlet" },

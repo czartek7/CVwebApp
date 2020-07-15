@@ -1,6 +1,7 @@
 {
 	"nav": {
-		"contact": "Kontakt",
+        "contact": "Kontakt",
+        "about": "O mnie",
 		"cv": "CV",
 		"main": "Strona główna"
     },
