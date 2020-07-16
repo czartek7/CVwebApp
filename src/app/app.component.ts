@@ -11,9 +11,6 @@ import {TranslateService} from '@ngx-translate/core';
 
 export class AppComponent implements OnInit {
 
-  title = 'AngularCV';
-  name:string = 'Czarek';
-
   ///////////////////////////////
   // Hamburger icon slide
   ///////////////////////////////
@@ -35,12 +32,23 @@ export class AppComponent implements OnInit {
         } else {
           element.style.animation = `navLinkFade 0.5s ease forwards ${index / 9}s`;
         }
-    });
-    } if (this.y.matches) {
-      var nav = document.querySelector('.nav-item');
-      var burger = document.querySelector('.burger');
+      });
+    }
+  }
+
+  navClose() {
+    var nav = document.querySelector('.nav-item')
+    var burger = document.querySelector('.burger');
+    var navItems: any = document.querySelectorAll('.nav-item li');
+
+    if (nav.classList.contains('nav-active')) {
       nav.classList.toggle('nav-active');
       burger.classList.toggle('burger-animation');
+
+      navItems.forEach((element) => {
+        element.style.animation = ""
+      });
+      
     }
   }
 
@@ -62,6 +70,10 @@ export class AppComponent implements OnInit {
       this.translate.use('en');
     } 
   }
+
+  //////////////////////////////////////////
+  // Language button configuration
+  //////////////////////////////////////////
 
   onSelect() {
     if (this.y.matches) {

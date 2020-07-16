@@ -5,7 +5,7 @@
       Cezary<span>Cieśliński</span>
     </a>
   </div>
-  <ul class="nav-item">
+  <ul class="nav-item" name="menu_list">
     <li (click)="navSlide()">
       <a href="#" routerLink="/main_page" routerLinkActive="active">{{ 'nav.main' | translate }}</a>
     </li>
@@ -50,6 +50,6 @@
   </div>
 </nav>
 
-<div class="main-content">
+<div class="main-content" (click)="navClose()">
   <router-outlet></router-outlet>
 </div>
