@@ -4,6 +4,17 @@
         Cezary <span>Cieśliński</span>
     </div>
     <div class="title sub fadeInBottom">
-        <p> <span>web</span>developer</p>
+        <p><span>web</span>developer</p>
+    </div>
+    <div class="menu-container">
+        <div class="menu-item one rFadeIn" href="#" routerLink="/about" routerLinkActive="active">
+            {{ "nav.about" | translate }}
+        </div>
+        <div class="menu-item two rFadeIn" href="#" routerLink="/cv" routerLinkActive="active">
+            {{ "nav.cv" | translate }}
+        </div>
+        <div class="menu-item three rFadeIn" href="#" routerLink="/contact" routerLinkActive="active">
+            {{ "nav.contact" | translate }}
+        </div>
     </div>
 </div>

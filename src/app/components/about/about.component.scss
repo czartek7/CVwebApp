@@ -7,6 +7,7 @@
         margin-bottom: 8%;
         display: flex;
         justify-content: space-around;
+        height: 100%;
     
         .image {
             height: 25em;
@@ -64,6 +65,7 @@
 
         .text {
             padding-top: 2em;
+            padding-bottom: 5em;
             text-align: justify;
             animation-duration: 1s;
             animation-fill-mode: both;

@@ -64,6 +64,23 @@
     }
   }
 
+  @keyframes menuFadeIn {
+    from {
+      opacity: 0;
+      transform: translateX(100px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0px);
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    .menu-container {
+      display: none;
+    }
+  }
+
   @media screen and (max-width: 768px) {
 
     .title {
@@ -73,6 +90,10 @@
         letter-spacing: 3px;
         text-align: center;
         padding-top: 1em;
+
+        &.sub {
+          padding-bottom: 2.2em;
+        }
     
         p {
             font-size: 2rem;
@@ -84,14 +105,39 @@
         }
       }
 
-      @keyframes titleFadeIn {
-        from {
-          opacity: 0;
-          transform: translateY(50px);
+    @keyframes titleFadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(50px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0px);
+      }
+    }
+
+    .menu-container {
+      display: flex;
+      justify-content: space-around;
+
+      .menu-item {
+        font-family: $jaapokki-regular;
+        animation-duration: 1s;
+        animation-fill-mode: both;
+
+        &.one {
+          animation-delay: .8s;
         }
-        to {
-          opacity: 1;
-          transform: translateY(0px);
+        &.two {
+          animation-delay: 1s;
+        }
+        &.three {
+          animation-delay: 1.2s;
         }
       }
+    }
+
+    .rFadeIn {
+      animation-name: menuFadeIn;
+    }
   }
