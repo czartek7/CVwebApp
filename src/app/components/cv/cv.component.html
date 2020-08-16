@@ -1,195 +1,371 @@
-
 <div class="cv">
-
-    <div class="cv-item one rFade"> 
-        <h1>{{ 'cv.skills' | translate }}</h1>
-        <div class="skills">
-
-            <div class="skills-item one">
-                <p>Back-end</p>
-                <div class="desktop">
-                    <i class="fab fa-java" [routerLink]="[{ outlets: { cvoutlet: ['java'] } }]" routerLinkActive="active" skipLocationChange></i>
-                    <i class="fab fa-python" [routerLink]="[{ outlets: { cvoutlet: ['python'] } }]" routerLinkActive="active" skipLocationChange></i>
-                </div>
-                <div class="mobile">
-                    <i class="fab fa-java" [routerLink]="[{ outlets: { cvoutlet: ['java'] } }]" routerLinkActive="active" skipLocationChange></i>
-                </div>
-                <div class="mobile">
-                    <i class="fab fa-python" [routerLink]="[{ outlets: { cvoutlet: ['python'] } }]" routerLinkActive="active" skipLocationChange></i>
-                </div>
-            </div>
-
-            <div class="skills-item two">
-                <p>Front-end</p>
-                <div>
-                    <i class="fab fa-html5" [routerLink]="[{ outlets: { cvoutlet: ['html5'] } }]" routerLinkActive="active" skipLocationChange></i>
-                    <i class="fab fa-css3-alt" [routerLink]="[{ outlets: { cvoutlet: ['css3'] } }]" routerLinkActive="active" skipLocationChange></i>
-                    <i class="fab fa-js" [routerLink]="[{ outlets: { cvoutlet: ['javascript'] } }]" routerLinkActive="active" skipLocationChange></i>
-                </div>
-                <div class="narrow">
-                    <i class="fab fa-angular" [routerLink]="[{ outlets: { cvoutlet: ['angular'] } }]" routerLinkActive="active" skipLocationChange></i>
-                    <i class="fab fa-node" [routerLink]="[{ outlets: { cvoutlet: ['nodejs'] } }]" routerLinkActive="active" skipLocationChange></i>
-                    <i class="fab fa-bootstrap" [routerLink]="[{ outlets: { cvoutlet: ['bootstrap'] } }]" routerLinkActive="active" skipLocationChange></i>
-                </div>
-            </div>
-
-            <div class="skills-item three">
-                <p>Ide</p>
-                <div class="desktop">
-                    <i class="svg" [routerLink]="[{ outlets: { cvoutlet: ['vscode'] } }]" routerLinkActive="active" skipLocationChange>
-                        <object data="../../../assets/images/vscode.svg" type="image/svg+xml"></object>
-                    </i>
-                    <i class="fab fa-android" [routerLink]="[{ outlets: { cvoutlet: ['androids'] } }]" routerLinkActive="active" skipLocationChange></i>
-                    <i class="svg" [routerLink]="[{ outlets: { cvoutlet: ['intellij'] } }]" routerLinkActive="active" skipLocationChange>
-                        <object data="../../../assets/images/intellij.svg" type="image/svg+xml"></object>
-                    </i>
-                </div>
-                <div class="mobile">
-                    <i class="svg" [routerLink]="[{ outlets: { cvoutlet: ['vscode'] } }]" routerLinkActive="active" skipLocationChange>
-                        <object data="../../../assets/images/vscode.svg" type="image/svg+xml"></object>
-                    </i>
-                    <i class="svg" [routerLink]="[{ outlets: { cvoutlet: ['intellij'] } }]" routerLinkActive="active" skipLocationChange>
-                        <object data="../../../assets/images/intellij.svg" type="image/svg+xml"></object>
-                    </i>
-                </div>
-                <div class="mobile">
-                    <i class="fab fa-android" [routerLink]="[{ outlets: { cvoutlet: ['androids'] } }]" routerLinkActive="active" skipLocationChange></i>
-                </div>
-            </div>
-
-            <div class="skills-item four">
-                <p>{{ 'cv.libraries' | translate }}</p>
-                <div>
-                    <i class="svg" [routerLink]="[{ outlets: { cvoutlet: ['tensorflow'] } }]" routerLinkActive="active" skipLocationChange>
-                        <object data="../../../assets/images/tensorflow.svg" type="image/svg+xml"></object>
-                    </i>
-                </div>
-                <div>
-                    <i [routerLink]="[{ outlets: { cvoutlet: ['numpy'] } }]" routerLinkActive="active" skipLocationChange>NumPy</i>
-                </div>
-                <div style="padding-top: .5em;">
-                    <i [routerLink]="[{ outlets: { cvoutlet: ['pandas'] } }]" routerLinkActive="active" skipLocationChange>Pandas</i>
-                </div>       
-            </div>
-
-            <div class="skills-item five">
-                <p>{{ 'cv.additional' | translate }}</p>
-                <div class="desktop">
-                    <i class="fab fa-linux" [routerLink]="[{ outlets: { cvoutlet: ['linux'] } }]" routerLinkActive="active" skipLocationChange></i>
-                    <i class="fab fa-git" [routerLink]="[{ outlets: { cvoutlet: ['git'] } }]" routerLinkActive="active" skipLocationChange></i>
-                    <i class="far fa-lightbulb" [routerLink]="[{ outlets: { cvoutlet: ['agile'] } }]" routerLinkActive="active" skipLocationChange></i>
-                    <i class="fas fa-database" [routerLink]="[{ outlets: { cvoutlet: ['sql'] } }]" routerLinkActive="active" skipLocationChange></i>
-                </div>
-                <div class="mobile">
-                    <i class="fab fa-linux" [routerLink]="[{ outlets: { cvoutlet: ['linux'] } }]" routerLinkActive="active" skipLocationChange></i>
-                    <i class="fab fa-git" [routerLink]="[{ outlets: { cvoutlet: ['git'] } }]" routerLinkActive="active" skipLocationChange></i>
-                </div>
-                <div class="mobile">
-                    <i class="far fa-lightbulb" [routerLink]="[{ outlets: { cvoutlet: ['agile'] } }]" routerLinkActive="active" skipLocationChange></i>
-                    <i class="fas fa-database" [routerLink]="[{ outlets: { cvoutlet: ['sql'] } }]" routerLinkActive="active" skipLocationChange></i>
-                </div>
-            </div>
-
-            <div class="skills-item six">
-                <p>{{ 'cv.languages' | translate }}</p>
-                <div class="desktop">
-                    <i [routerLink]="[{ outlets: { cvoutlet: ['eng'] } }]" routerLinkActive="active" skipLocationChange>Hello!</i>
-                    <i [routerLink]="[{ outlets: { cvoutlet: ['chinese'] } }]" routerLinkActive="active" skipLocationChange>你好!</i>
-                </div>
-                <div class="mobile">
-                    <i [routerLink]="[{ outlets: { cvoutlet: ['eng'] } }]" routerLinkActive="active" skipLocationChange>Hello!</i>
-                </div>
-                <div class="mobile">
-                    <i [routerLink]="[{ outlets: { cvoutlet: ['chinese'] } }]" routerLinkActive="active" skipLocationChange>你好!</i>
-                </div>
-            </div>
-
+  <div class="cv-item one rFade">
+    <h1>{{ "cv.skills" | translate }}</h1>
+    <div class="skills">
+      <div class="skills-item one">
+        <p>Back-end</p>
+        <div class="desktop">
+          <i
+            class="fab fa-java"
+            [routerLink]="[{ outlets: { cvoutlet: ['java'] } }]"
+            routerLinkActive="active"
+            skipLocationChange
+          ></i>
+          <i
+            class="fab fa-python"
+            [routerLink]="[{ outlets: { cvoutlet: ['python'] } }]"
+            routerLinkActive="active"
+            skipLocationChange
+          ></i>
         </div>
-    </div>
-
-    <div class="cv-item two lFade">
-        <router-outlet name="cvoutlet"></router-outlet>
-    </div>
-
-    <div class="cv-item three lFade">
-        <h1>{{ 'cv.education' | translate }}</h1>
-        <div class="education">
-            <div class="education-item">              
-                <p>
-                    <span>{{ 'cv.date1' | translate }}</span>
-                </p>
-                <p>{{ 'cv.division1' | translate }}</p>
-                <p>{{ 'cv.major' | translate }}<span>{{ 'cv.major1' | translate }}</span>{{ 'cv.add-info1' | translate }}</p>           
-            </div>
-            <div class="education-item">
-                <p>
-                    <span>{{ 'cv.date1' | translate }}</span>
-                </p>
-                <p>{{ 'cv.division2' | translate }}</p>
-                <p>{{ 'cv.major' | translate }}<span>{{ 'cv.major2' | translate }}</span>{{ 'cv.add-info2' | translate }}</p>               
-            </div>
+        <div class="mobile">
+          <i
+            class="fab fa-java"
+            [routerLink]="[{ outlets: { cvoutlet: ['java'] } }]"
+            routerLinkActive="active"
+            skipLocationChange
+          ></i>
         </div>
-    </div>
-
-    <div class="cv-item four rFade">
-        <h1>{{ 'cv.experience' | translate }}</h1>
-        <div class="exp">
-            <div class="exp-item">
-                <p>
-                    {{ 'cv.date3' | translate }}
-                </p>
-                <h1>
-                    <span>{{ 'cv.name1' | translate }}</span>
-                </h1>
-                <p>
-                    {{ 'cv.desc1' | translate }}
-                </p>
-            </div>
-            <div class="exp-item">
-                <p>
-                    {{ 'cv.date4' | translate }}
-                </p>
-                <h1>
-                    <span>{{ 'cv.name2' | translate }}</span>
-                </h1>
-                <p>
-                    {{ 'cv.desc2' | translate }}
-                </p>
-            </div>
-            <div class="exp-item">
-                <p>
-                    {{ 'cv.date5' | translate }}
-                </p>
-                <h1>
-                    <span>{{ 'cv.name3' | translate }}</span>
-                </h1>
-                <p>
-                    {{ 'cv.desc3' | translate }}
-                </p>
-            </div>
+        <div class="mobile">
+          <i
+            class="fab fa-python"
+            [routerLink]="[{ outlets: { cvoutlet: ['python'] } }]"
+            routerLinkActive="active"
+            skipLocationChange
+          ></i>
         </div>
+      </div>
+
+      <div class="skills-item two">
+        <p>Front-end</p>
+        <div>
+          <i
+            class="fab fa-html5"
+            [routerLink]="[{ outlets: { cvoutlet: ['html5'] } }]"
+            routerLinkActive="active"
+            skipLocationChange
+          ></i>
+          <i
+            class="fab fa-css3-alt"
+            [routerLink]="[{ outlets: { cvoutlet: ['css3'] } }]"
+            routerLinkActive="active"
+            skipLocationChange
+          ></i>
+          <i
+            class="fab fa-js"
+            [routerLink]="[{ outlets: { cvoutlet: ['javascript'] } }]"
+            routerLinkActive="active"
+            skipLocationChange
+          ></i>
+        </div>
+        <div class="narrow">
+          <i
+            class="fab fa-angular"
+            [routerLink]="[{ outlets: { cvoutlet: ['angular'] } }]"
+            routerLinkActive="active"
+            skipLocationChange
+          ></i>
+          <i
+            class="fab fa-react"
+            [routerLink]="[{ outlets: { cvoutlet: ['react'] } }]"
+            routerLinkActive="active"
+            skipLocationChange
+          ></i>
+          <i
+            class="fab fa-node"
+            [routerLink]="[{ outlets: { cvoutlet: ['nodejs'] } }]"
+            routerLinkActive="active"
+            skipLocationChange
+          ></i>
+          <i
+            class="fab fa-bootstrap"
+            [routerLink]="[{ outlets: { cvoutlet: ['bootstrap'] } }]"
+            routerLinkActive="active"
+            skipLocationChange
+          ></i>
+        </div>
+      </div>
+
+      <div class="skills-item three">
+        <p>Ide</p>
+        <div class="desktop">
+          <i
+            class="svg"
+            [routerLink]="[{ outlets: { cvoutlet: ['vscode'] } }]"
+            routerLinkActive="active"
+            skipLocationChange
+          >
+            <object
+              data="../../../assets/images/vscode.svg"
+              type="image/svg+xml"
+            ></object>
+          </i>
+          <i
+            class="fab fa-android"
+            [routerLink]="[{ outlets: { cvoutlet: ['androids'] } }]"
+            routerLinkActive="active"
+            skipLocationChange
+          ></i>
+          <i
+            class="svg"
+            [routerLink]="[{ outlets: { cvoutlet: ['intellij'] } }]"
+            routerLinkActive="active"
+            skipLocationChange
+          >
+            <object
+              data="../../../assets/images/intellij.svg"
+              type="image/svg+xml"
+            ></object>
+          </i>
+        </div>
+        <div class="mobile">
+          <i
+            class="svg"
+            [routerLink]="[{ outlets: { cvoutlet: ['vscode'] } }]"
+            routerLinkActive="active"
+            skipLocationChange
+          >
+            <object
+              data="../../../assets/images/vscode.svg"
+              type="image/svg+xml"
+            ></object>
+          </i>
+          <i
+            class="svg"
+            [routerLink]="[{ outlets: { cvoutlet: ['intellij'] } }]"
+            routerLinkActive="active"
+            skipLocationChange
+          >
+            <object
+              data="../../../assets/images/intellij.svg"
+              type="image/svg+xml"
+            ></object>
+          </i>
+        </div>
+        <div class="mobile">
+          <i
+            class="fab fa-android"
+            [routerLink]="[{ outlets: { cvoutlet: ['androids'] } }]"
+            routerLinkActive="active"
+            skipLocationChange
+          ></i>
+        </div>
+      </div>
+
+      <div class="skills-item four">
+        <p>{{ "cv.libraries" | translate }}</p>
+        <div>
+          <i
+            class="svg"
+            [routerLink]="[{ outlets: { cvoutlet: ['tensorflow'] } }]"
+            routerLinkActive="active"
+            skipLocationChange
+          >
+            <object
+              data="../../../assets/images/tensorflow.svg"
+              type="image/svg+xml"
+            ></object>
+          </i>
+        </div>
+        <div>
+          <i
+            [routerLink]="[{ outlets: { cvoutlet: ['numpy'] } }]"
+            routerLinkActive="active"
+            skipLocationChange
+            >NumPy</i
+          >
+        </div>
+        <div style="padding-top: 0.5em;">
+          <i
+            [routerLink]="[{ outlets: { cvoutlet: ['pandas'] } }]"
+            routerLinkActive="active"
+            skipLocationChange
+            >Pandas</i
+          >
+        </div>
+      </div>
+
+      <div class="skills-item five">
+        <p>{{ "cv.additional" | translate }}</p>
+        <div class="desktop">
+          <i
+            class="fab fa-linux"
+            [routerLink]="[{ outlets: { cvoutlet: ['linux'] } }]"
+            routerLinkActive="active"
+            skipLocationChange
+          ></i>
+          <i
+            class="fab fa-git"
+            [routerLink]="[{ outlets: { cvoutlet: ['git'] } }]"
+            routerLinkActive="active"
+            skipLocationChange
+          ></i>
+          <i
+            class="far fa-lightbulb"
+            [routerLink]="[{ outlets: { cvoutlet: ['agile'] } }]"
+            routerLinkActive="active"
+            skipLocationChange
+          ></i>
+          <i
+            class="fas fa-database"
+            [routerLink]="[{ outlets: { cvoutlet: ['sql'] } }]"
+            routerLinkActive="active"
+            skipLocationChange
+          ></i>
+        </div>
+        <div class="mobile">
+          <i
+            class="fab fa-linux"
+            [routerLink]="[{ outlets: { cvoutlet: ['linux'] } }]"
+            routerLinkActive="active"
+            skipLocationChange
+          ></i>
+          <i
+            class="fab fa-git"
+            [routerLink]="[{ outlets: { cvoutlet: ['git'] } }]"
+            routerLinkActive="active"
+            skipLocationChange
+          ></i>
+        </div>
+        <div class="mobile">
+          <i
+            class="far fa-lightbulb"
+            [routerLink]="[{ outlets: { cvoutlet: ['agile'] } }]"
+            routerLinkActive="active"
+            skipLocationChange
+          ></i>
+          <i
+            class="fas fa-database"
+            [routerLink]="[{ outlets: { cvoutlet: ['sql'] } }]"
+            routerLinkActive="active"
+            skipLocationChange
+          ></i>
+        </div>
+      </div>
+
+      <div class="skills-item six">
+        <p>{{ "cv.languages" | translate }}</p>
+        <div class="desktop">
+          <i
+            [routerLink]="[{ outlets: { cvoutlet: ['eng'] } }]"
+            routerLinkActive="active"
+            skipLocationChange
+            >Hello!</i
+          >
+          <i
+            [routerLink]="[{ outlets: { cvoutlet: ['chinese'] } }]"
+            routerLinkActive="active"
+            skipLocationChange
+            >你好!</i
+          >
+        </div>
+        <div class="mobile">
+          <i
+            [routerLink]="[{ outlets: { cvoutlet: ['eng'] } }]"
+            routerLinkActive="active"
+            skipLocationChange
+            >Hello!</i
+          >
+        </div>
+        <div class="mobile">
+          <i
+            [routerLink]="[{ outlets: { cvoutlet: ['chinese'] } }]"
+            routerLinkActive="active"
+            skipLocationChange
+            >你好!</i
+          >
+        </div>
+      </div>
     </div>
+  </div>
 
-    <div class="cv-item five bFade"></div>
+  <div class="cv-item two lFade">
+    <router-outlet name="cvoutlet"></router-outlet>
+  </div>
 
-    <div class="cv-item six bFade">
-        <h1>{{ 'cv.interests' | translate }}</h1>
-        <div class="interests">
-            <div class="interests-item one img">
-                <h1>{{ 'cv.coffee' | translate }}</h1>
-            </div>
-            <div class="interests-item two">
-                <h1>{{ 'cv.chess' | translate }}</h1>
-                <p>
-                </p>
-            </div>
-            <div class="interests-item three">
-                <h1>{{ 'cv.travel' | translate }}</h1>
-            </div>
-            <div class="interests-item four">
-                <h1>{{ 'cv.games' | translate }}</h1>
-            </div>
-        </div> 
+  <div class="cv-item three lFade">
+    <h1>{{ "cv.education" | translate }}</h1>
+    <div class="education">
+      <div class="education-item">
+        <p>
+          <span>{{ "cv.date1" | translate }}</span>
+        </p>
+        <p>{{ "cv.division1" | translate }}</p>
+        <p>
+          {{ "cv.major" | translate }}<span>{{ "cv.major1" | translate }}</span
+          >{{ "cv.add-info1" | translate }}
+        </p>
+      </div>
+      <div class="education-item">
+        <p>
+          <span>{{ "cv.date1" | translate }}</span>
+        </p>
+        <p>{{ "cv.division2" | translate }}</p>
+        <p>
+          {{ "cv.major" | translate }}<span>{{ "cv.major2" | translate }}</span
+          >{{ "cv.add-info2" | translate }}
+        </p>
+      </div>
     </div>
+  </div>
 
+  <div class="cv-item four rFade">
+    <h1>{{ "cv.experience" | translate }}</h1>
+    <div class="exp">
+      <div class="exp-item">
+        <p>
+          {{ "cv.date3" | translate }}
+        </p>
+        <h1>
+          <span>{{ "cv.name1" | translate }}</span>
+        </h1>
+        <p>
+          {{ "cv.desc1" | translate }}
+        </p>
+      </div>
+      <div class="exp-item">
+        <p>
+          {{ "cv.date4" | translate }}
+        </p>
+        <h1>
+          <span>{{ "cv.name2" | translate }}</span>
+        </h1>
+        <p>
+          {{ "cv.desc2" | translate }}
+        </p>
+      </div>
+      <div class="exp-item">
+        <p>
+          {{ "cv.date5" | translate }}
+        </p>
+        <h1>
+          <span>{{ "cv.name3" | translate }}</span>
+        </h1>
+        <p>
+          {{ "cv.desc3" | translate }}
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="cv-item five bFade"></div>
+
+  <div class="cv-item six bFade">
+    <h1>{{ "cv.interests" | translate }}</h1>
+    <div class="interests">
+      <div class="interests-item one img">
+        <h1>{{ "cv.coffee" | translate }}</h1>
+      </div>
+      <div class="interests-item two">
+        <h1>{{ "cv.chess" | translate }}</h1>
+        <p></p>
+      </div>
+      <div class="interests-item three">
+        <h1>{{ "cv.travel" | translate }}</h1>
+      </div>
+      <div class="interests-item four">
+        <h1>{{ "cv.games" | translate }}</h1>
+      </div>
+    </div>
+  </div>
 </div>

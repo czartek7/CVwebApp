@@ -1,35 +1,30 @@
-/* You can add global styles to this file, and also import other style files */
-
 // Fonts import
 @font-face {
   font-family: "Jaapokki-regular";
   src: url("assets/fonts/regular/jaapokki-regular.eot");
-  src:
-  url("assets/fonts/regular/jaapokki-regular.woff") format("woff"),
-  url("assets/fonts/regular/jaapokki-regular.ttf") format("truetype"),
-  url("assets/fonts/regular/jaapokki-regular.svg") format("svg");
-  }
+  src: url("assets/fonts/regular/jaapokki-regular.woff") format("woff"),
+    url("assets/fonts/regular/jaapokki-regular.ttf") format("truetype"),
+    url("assets/fonts/regular/jaapokki-regular.svg") format("svg");
+}
 
 @font-face {
   font-family: "Jaapokki-enchance";
   src: url("assets/fonts/enchance/jaapokkienchance-regular.eot");
-  src:
-  url("assets/fonts/enchance/jaapokkienchance-regular.woff") format("woff"),
-  url("assets/fonts/enchance/jaapokkienchance-regular.ttf") format("truetype"),
-  url("assets/fonts/enchance/jaapokkienchance-regular.svg") format("svg");
-  }
+  src: url("assets/fonts/enchance/jaapokkienchance-regular.woff") format("woff"),
+    url("assets/fonts/enchance/jaapokkienchance-regular.ttf") format("truetype"),
+    url("assets/fonts/enchance/jaapokkienchance-regular.svg") format("svg");
+}
 
 @font-face {
   font-family: "Jaapokki-subtract";
   src: url("assets/fonts/subtract/jaapokkisubtract-regular.eot");
-  src:
-  url("assets/fonts/subtract/jaapokkisubtract-regular.woff") format("woff"),
-  url("assets/fonts/subtract/jaapokkisubtract-regular.ttf") format("truetype"),
-  url("assets/fonts/subtract/jaapokkisubtract-regular.svg") format("svg");
-  }
+  src: url("assets/fonts/subtract/jaapokkisubtract-regular.woff") format("woff"),
+    url("assets/fonts/subtract/jaapokkisubtract-regular.ttf") format("truetype"),
+    url("assets/fonts/subtract/jaapokkisubtract-regular.svg") format("svg");
+}
 
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap");
 
 @import "colors&fonts.scss";
 
@@ -37,10 +32,10 @@
 // General styles
 // ===================
 
-*{
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 body {
@@ -50,7 +45,6 @@ body {
   line-height: 1.45;
   zoom: 90%;
 }
-
 
 // ===================
 // Navigation
@@ -80,7 +74,7 @@ body {
     text-decoration: none;
     color: $light-gray;
   }
-  
+
   span {
     font-family: $jaapokki-subtract;
     color: $white;
@@ -103,7 +97,7 @@ body {
     &.active {
       color: $light-gray;
     }
-  
+
     &:hover {
       color: $light-gray;
     }
@@ -149,7 +143,7 @@ body {
 
       & + label {
         opacity: 1;
-	      cursor: default;
+        cursor: default;
       }
     }
 
@@ -183,10 +177,10 @@ body {
 
 .switch--horizontal {
   width: 9rem;
-	height: 1.5rem;
-	margin: 0 auto;
+  height: 1.5rem;
+  margin: 0 auto;
   font-size: 0;
-  
+
   input {
     height: 1.5rem;
     width: 3rem;
@@ -230,7 +224,9 @@ body {
 }
 
 @media screen and (min-width: 768px) {
-  .mobile-only {display: none;}
+  .mobile-only {
+    display: none;
+  }
 
   .nav-item {
     padding-left: 10em;
@@ -249,14 +245,13 @@ body {
 }
 
 @media screen and (max-width: 768px) {
-
-html,
-body {
+  html,
+  body {
     overflow-x: hidden;
     position: relative;
     height: 100%;
     font-size: 1rem;
-}
+  }
 
   #nav {
     padding: 0px 0px 0px 0px;
@@ -318,9 +313,8 @@ body {
 }
 
 .burger-animation {
-
   & .line1 {
-    transform: rotate(-45deg) translate(-5px,6px);
+    transform: rotate(-45deg) translate(-5px, 6px);
   }
 
   & .line2 {
@@ -328,7 +322,7 @@ body {
   }
 
   & .line3 {
-    transform: rotate(45deg) translate(-5px,-6px);
+    transform: rotate(45deg) translate(-5px, -6px);
   }
 }
 

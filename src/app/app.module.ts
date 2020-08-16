@@ -1,5 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core'
+import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
@@ -30,11 +30,12 @@ import { SqlComponent } from './skills-comp/sql/sql.component';
 import { EngComponent } from './skills-comp/eng/eng.component';
 import { ChineseComponent } from './skills-comp/chinese/chinese.component';
 import { PandasComponent } from './skills-comp/pandas/pandas.component';
+import { ReactComponent } from './skills-comp/react/react.component';
 
 // ngx-translate
-import {TranslateLoader, TranslateModule} from '@ngx-translate/core';
-import {TranslateHttpLoader} from '@ngx-translate/http-loader';
-import {HttpClient, HttpClientModule} from '@angular/common/http';
+import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
+import { TranslateHttpLoader } from '@ngx-translate/http-loader';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { AboutComponent } from './components/about/about.component';
 
 @NgModule({
@@ -64,24 +65,25 @@ import { AboutComponent } from './components/about/about.component';
     EngComponent,
     ChineseComponent,
     PandasComponent,
-    AboutComponent
+    AboutComponent,
+    ReactComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-        TranslateModule.forRoot({
-            loader: {
-                provide: TranslateLoader,
-                useFactory: HttpLoaderFactory,
-                deps: [HttpClient]
-            }
-        })
+    TranslateModule.forRoot({
+      loader: {
+        provide: TranslateLoader,
+        useFactory: HttpLoaderFactory,
+        deps: [HttpClient],
+      },
+    }),
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
