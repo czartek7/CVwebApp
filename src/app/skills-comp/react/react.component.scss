@@ -1,3 +1,5 @@
+@import "../../../colors&fonts.scss";
+
 .comp {
   animation-duration: 1s;
   animation-fill-mode: both;
@@ -5,6 +7,16 @@
 
 p {
   margin-bottom: 15px;
+
+  a {
+    text-decoration: none;
+    color: $true-black;
+    transition: 0.3s linear;
+
+    &:hover {
+      color: $light-gray;
+    }
+  }
 }
 
 .fade {

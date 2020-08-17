@@ -1,15 +1,16 @@
-@import '../../../colors&fonts.scss';
-@import '../html5/html5.component.scss';
+@import "../../../colors&fonts.scss";
+@import "../html5/html5.component.scss";
 
 p {
-    margin-bottom: 15px;
+  margin-bottom: 15px;
 
-    a {
-        text-decoration: none;
+  a {
+    text-decoration: none;
+    color: $true-black;
+    transition: 0.3s linear;
 
-        &:hover {
-            color: $light-gray;
-            text-decoration: underline;
-        }
+    &:hover {
+      color: $light-gray;
     }
+  }
 }

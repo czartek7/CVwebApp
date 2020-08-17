@@ -28,9 +28,10 @@ p {
 
 p a {
   text-decoration: none;
+  color: #1a1a1a;
+  transition: 0.3s linear;
 }
 
 p a:hover {
   color: #c4c4c4;
-  text-decoration: underline;
 }

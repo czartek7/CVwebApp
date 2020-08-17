@@ -1,186 +1,193 @@
 {
-	"nav": {
-        "contact": "Kontakt",
-        "about": "O mnie",
-		"cv": "CV",
-		"main": "Strona główna"
-    },
-    
-    "cv": {
-        "skills": "Umiejętności",
-        "education": "Wykształcenie",
-        "experience": "Doświadczenie",
-        "interests": "Zainteresowania",
+  "nav": {
+    "contact": "Kontakt",
+    "about": "O mnie",
+    "cv": "CV",
+    "main": "Strona główna"
+  },
 
-        "libraries": "Biblioteki",
-        "additional": "Dodatkowe",
-        "languages": "Języki",
+  "cv": {
+    "skills": "Umiejętności",
+    "education": "Wykształcenie",
+    "experience": "Doświadczenie",
+    "interests": "Zainteresowania",
 
-        "major": "Kierunek: ",
-        
-        "date1": "PAŹDZIERNIK 2019 - NADAL",
-        "division1": "Uniwersytet Łódzki, Wydział Fizyki i Informatyki Stosowanej",
-        "major1": "Informatyka II stopnia",
-        "add-info1": ", specjalność „Sztuczna Inteligencja”",
+    "libraries": "Biblioteki",
+    "additional": "Dodatkowe",
+    "languages": "Języki",
 
-        "date2": "PAŹDZIERNIK 2016 – CZERWIEC 2019",
-        "division2": "Uniwersytet Łódzki, Wydział Studiów Międzynarodowych i Politologicznych",
-        "major2": "Stosunki Międzynarodowe I stopnia, specjalność „Asian Studies”",
-        "add-info2": " w jęz. angielskim",
+    "major": "Kierunek: ",
 
-        "date3": "MARZEC 2018 - LIPIEC 2018",
-        "date4": "PAŹDZIERNIK 2017 - MARZEC 2018",
-        "date5": "PAŹDZIERNIK 2016 - CZERWIEC 2019",
+    "date1": "PAŹDZIERNIK 2019 - NADAL",
+    "division1": "Uniwersytet Łódzki, Wydział Fizyki i Informatyki Stosowanej",
+    "major1": "Informatyka II stopnia",
+    "add-info1": ", specjalność „Sztuczna Inteligencja”",
 
-        "name1": "Urząd Marszałkowski w Łodzi — Departament Promocji i Współpracy Zagranicznej",
-        "name2": "Regionalny Ośrodek Debaty Międzynarodowej",
-        "name3": "Koło Naukowe Azji Wschodniej i Pacyfiku",
+    "date2": "PAŹDZIERNIK 2016 – CZERWIEC 2019",
+    "division2": "Uniwersytet Łódzki, Wydział Studiów Międzynarodowych i Politologicznych",
+    "major2": "Stosunki Międzynarodowe I stopnia, specjalność „Asian Studies”",
+    "add-info2": " w jęz. angielskim",
 
-        "desc1": "Do moich obowiązków jako stażysty należało redagowanie cotygodniowych raportów dot. polityki zagranicznej USA oraz Chin, tłumaczenie dokumentów oraz realizacja bieżących projektów. Zazwyczaj dotyczyły one współpracy z chińską prowincją Chengdu.",
-        "desc2": "Jako wolontariusz pomagałem przy organizacji wydarzeń promujących region, moderowałem stronę internetową oraz pełniłem dyżury w biurze.",
-        "desc3": "W kole naukowym udzielałem się przez całą długość studiów I stopnia. Już na pierwszym roku udało nam się zorganizować miesięczną wyprawę naukową do Tajlandii, Wietnamu, Laosu i Kambodży. Organizowaliśmy także serię spotkań z podróżnikami w kawiarni Daleko Blisko.",
+    "date3": "MARZEC 2018 - LIPIEC 2018",
+    "date4": "PAŹDZIERNIK 2017 - MARZEC 2018",
+    "date5": "PAŹDZIERNIK 2016 - CZERWIEC 2019",
 
-        "coffee": "Kawa",
-        "chess": "Szachy",
-        "travel": "Podróże",
-        "games": "Gry Komputerowe"
-    },
+    "name1": "Urząd Marszałkowski w Łodzi — Departament Promocji i Współpracy Zagranicznej",
+    "name2": "Regionalny Ośrodek Debaty Międzynarodowej",
+    "name3": "Koło Naukowe Azji Wschodniej i Pacyfiku",
 
-    "contact": {
-        "title1": "Zostańmy w kontakcie!",
-        "title2": "Moje sieci społecznościowe:"
-    },
+    "desc1": "Do moich obowiązków jako stażysty należało redagowanie cotygodniowych raportów dot. polityki zagranicznej USA oraz Chin, tłumaczenie dokumentów oraz realizacja bieżących projektów. Zazwyczaj dotyczyły one współpracy z chińską prowincją Chengdu.",
+    "desc2": "Jako wolontariusz pomagałem przy organizacji wydarzeń promujących region, moderowałem stronę internetową oraz pełniłem dyżury w biurze.",
+    "desc3": "W kole naukowym udzielałem się przez całą długość studiów I stopnia. Już na pierwszym roku udało nam się zorganizować miesięczną wyprawę naukową do Tajlandii, Wietnamu, Laosu i Kambodży. Organizowaliśmy także serię spotkań z podróżnikami w kawiarni Daleko Blisko.",
 
-    "about": {
-        "h1": "Cześć!",
-        "p": "Nazywam się Cezary Cieśliński i zajmuję się tworzeniem stron internetowych. Jestem studentem informatyki na Uniwersytecie Łódzkim. Obecnie szukam pracy, w której mógłbym rozwinąć się lepiej jako webdeveloper. Jeśli jesteś pracodawcą lub rekruterem to wspaniale się składa. Zapraszam Cię do zakładki CV, gdzie znajdziesz wszystkie informacje o moim doświadczeniu i umiejętnościach."
-    },
+    "coffee": "Kawa",
+    "chess": "Szachy",
+    "travel": "Podróże",
+    "games": "Gry Komputerowe"
+  },
 
-    "default": {
-        "click": "Kliknij w ikonę ",
-        "above": "powyżej",
-        "left": "obok",
-        "more": "aby dowiedzieć się więcej"
-    },
+  "contact": {
+    "title1": "Zostańmy w kontakcie!",
+    "title2": "Moje sieci społecznościowe:"
+  },
 
-    "agile": {
-        "title": "Metodyki zwinne",
-        "p1": "Mimo że nigdy nie pracowałem w zespole zarządzanym metodykami zwinnymi, to wiem sporo na ten temat i sama filozofia Agile i jej pokrewnych nie jest mi obca.",
-        "p2": "Sam często korzystam z metody Kanban przy zarządzaniu własnym projektem."
-    },
+  "about": {
+    "h1": "Cześć!",
+    "p": "Nazywam się Cezary Cieśliński i zajmuję się tworzeniem stron internetowych. Jestem studentem informatyki na Uniwersytecie Łódzkim. Obecnie szukam pracy, w której mógłbym rozwinąć się lepiej jako webdeveloper. Jeśli jesteś pracodawcą lub rekruterem to wspaniale się składa. Zapraszam Cię do zakładki CV, gdzie znajdziesz wszystkie informacje o moim doświadczeniu i umiejętnościach."
+  },
 
-    "android": {
-        "title": "Android Studio",
-        "p1": "Dzięki Android Studio stworzyłem swoją pierwszą aplikację mobilną w języku Java.",
-        "p2": "Trochę przypomina to pracę nad stroną internetową, z tym, że zamiast HTML i CSS używa się plików .xml a zamiast JavaScript, języka Java."
-    },
+  "default": {
+    "click": "Kliknij w ikonę ",
+    "above": "powyżej",
+    "left": "obok",
+    "more": "aby dowiedzieć się więcej"
+  },
 
-    "angular": {
-        "title": "Angular.io",
-        "p1": "Strona, którą teraz przeglądasz, została stworzona właśnie dzięki Angular!",
-        "p2": "Po opanowaniu w HTML, CSS oraz JavaScript w stopniu umożliwiającym samodzielne tworzenie treści, rozpocząłem naukę Angular, przyswajając przy okazji język TypeScript oraz składnię SCSS."
-    },
+  "agile": {
+    "title": "Metodyki zwinne",
+    "p1": "Mimo że nigdy nie pracowałem w zespole zarządzanym metodykami zwinnymi, to wiem sporo na ten temat i sama filozofia Agile i jej pokrewnych nie jest mi obca.",
+    "p2": "Sam często korzystam z metody Kanban przy zarządzaniu własnym projektem."
+  },
 
-    "bootstrap": {
-        "title": "Bootstrap",
-        "p1": "Bootstrap służy mi do budowania responsywnych stron internetowych, skalowanych pod różne rozmiary urządzeń. Znam podstawy biblioteki w jej najnowszej wersji - Bootstrap 4."
-    },
+  "android": {
+    "title": "Android Studio",
+    "p1": "Dzięki Android Studio stworzyłem swoją pierwszą aplikację mobilną w języku Java.",
+    "p2": "Trochę przypomina to pracę nad stroną internetową, z tym, że zamiast HTML i CSS używa się plików .xml a zamiast JavaScript, języka Java."
+  },
 
-    "chinese": {
-        "title": "Język chiński",
-        "p1": "Języka chińskiego uczyłem się na studiach pierwszego stopnia. Dwa razy uczestniczyłem w szkole letniej w Chinach, gdzie szlifowałem swój język nie tylko na zajęciach ale też podczas codziennych czynności, jak zakupy czy zamawianie jedzenia w stołówce.",
-        "p2": "Obecnie prezentuję poziom zbliżony do B1 i jestem w stanie przeprowadzić prostą rozmowę w tym języku."
-    },
+  "angular": {
+    "title": "Angular.io",
+    "p1": "Strona, którą teraz przeglądasz, została stworzona właśnie dzięki Angular!",
+    "p2": "Po opanowaniu w HTML, CSS oraz JavaScript w stopniu umożliwiającym samodzielne tworzenie treści, rozpocząłem naukę Angular, przyswajając przy okazji język TypeScript oraz składnię SCSS."
+  },
 
-    "css": {
-        "title": "CSS",
-        "p1": "Pracy z arkuszami styli CSS uczyłem się wraz z HTML, początkowo operując na czystym CSS3.",
-        "p2": "Z biegiem czasu zacząłem doceniać rozwiązania Sass oraz Less dające możliwość zagnieżdżania klas oraz tworzenia zmiennych. Dziś korzystam z obu tych rozwiązań dzięki SCSS oraz wygodnym wtyczkom do Visual Studio Code."
-    },
+  "bootstrap": {
+    "title": "Bootstrap",
+    "p1": "Bootstrap służy mi do budowania responsywnych stron internetowych, skalowanych pod różne rozmiary urządzeń. Znam podstawy biblioteki w jej najnowszej wersji - Bootstrap 4."
+  },
 
-    "eng": {
-        "title": "Język angielski",
-        "p1": "Języka angielskiego uczyłem się od dziecka, najpierw w szkole językowej, potem razem z moim tatą, a następnie w szkole i z pomocą wszelkich dzieł popkultury dostępnych w tym języku. Ukończyłem również kierunek prowadzony w pełni po angielsku - Asian Studies.",
-        "p2": "Obecnie potrafię płynnie komunikować się po angielsku i bez problemu pracować w tym języku."
-    },
+  "chinese": {
+    "title": "Język chiński",
+    "p1": "Języka chińskiego uczyłem się na studiach pierwszego stopnia. Dwa razy uczestniczyłem w szkole letniej w Chinach, gdzie szlifowałem swój język nie tylko na zajęciach ale też podczas codziennych czynności, jak zakupy czy zamawianie jedzenia w stołówce.",
+    "p2": "Obecnie prezentuję poziom zbliżony do B1 i jestem w stanie przeprowadzić prostą rozmowę w tym języku."
+  },
 
-    "git": {
-        "title": "Git",
-        "p1": "Projekty zazwyczaj tworzę sam, więc początkowo z Gita zacząłem korzystać w celu zapoznania się z tą funkcjonalnością.",
-        "p2": "Git bardzo przydaje mi się do dzielenia się swoim kodem ze światem. Obecnie staram się kreować w sobie dobre nawyki poprzez regularne podpinanie nowych projektów i częste stosowanie commitów."
-    },
+  "css": {
+    "title": "CSS",
+    "p1": "Pracy z arkuszami styli CSS uczyłem się wraz z HTML, początkowo operując na czystym CSS3.",
+    "p2": "Z biegiem czasu zacząłem doceniać rozwiązania Sass oraz Less dające możliwość zagnieżdżania klas oraz tworzenia zmiennych. Dziś korzystam z obu tych rozwiązań dzięki SCSS oraz wygodnym wtyczkom do Visual Studio Code."
+  },
 
-    "html": {
-        "title": "HTML",
-        "p1": "Języka HTML zacząłem uczyć się na kursach internetowych, wraz z CSS. Swoją pierwszą stronę internetową, zawierającą jeden widok, napisałem właśnie dzięki HTML i CSS.",
-        "p2": "Na co dzień staram się korzystać z możliwości jakie daje ostatnia wersja tego języka, czyli HTML5."
-    },
+  "eng": {
+    "title": "Język angielski",
+    "p1": "Języka angielskiego uczyłem się od dziecka, najpierw w szkole językowej, potem razem z moim tatą, a następnie w szkole i z pomocą wszelkich dzieł popkultury dostępnych w tym języku. Ukończyłem również kierunek prowadzony w pełni po angielsku - Asian Studies.",
+    "p2": "Obecnie potrafię płynnie komunikować się po angielsku i bez problemu pracować w tym języku."
+  },
 
-    "intellij": {
-        "title": "IntelliJ",
-        "p1": "Środowiska od JetBrains używam do pracy nad kodem Javy praktycznie od początku swojej przygody z programowaniem.",
-        "p2": "Potrafię tutaj korzystać m.in. z narzędzi takich jak Gradle oraz Maven, oprogramowania testowego Mockito oraz Cucumbre i ze wsparcia dla baz danych w języku SQL."
-    },
+  "git": {
+    "title": "Git",
+    "p1": "Projekty zazwyczaj tworzę sam, więc początkowo z Gita zacząłem korzystać w celu zapoznania się z tą funkcjonalnością.",
+    "p2": "Git bardzo przydaje mi się do dzielenia się swoim kodem ze światem. Obecnie staram się kreować w sobie dobre nawyki poprzez regularne podpinanie nowych projektów i częste stosowanie commitów."
+  },
 
-    "java": {
-        "title": "Java",
-        "p1": "Języka Java zacząłem używać na studiach. Zrealizowałem w nim kilka projektów, w tym drzewo binarne oraz program liczący minimum funkcji jednej zmiennej. Stworzyłem w niej także w pełni działającą aplikację mobilną na system Android.",
-        "p2": "Po wszystkie te projekty zapraszam na mojego",
-        "href": "Githuba"
-    },
+  "html": {
+    "title": "HTML",
+    "p1": "Języka HTML zacząłem uczyć się na kursach internetowych, wraz z CSS. Swoją pierwszą stronę internetową, zawierającą jeden widok, napisałem właśnie dzięki HTML i CSS.",
+    "p2": "Na co dzień staram się korzystać z możliwości jakie daje ostatnia wersja tego języka, czyli HTML5."
+  },
 
-    "js": {
-        "title": "JavaScript",
-        "p1": "Języka Javascript po raz pierwszy użyłem, implementując zegar na jednej ze swoich pierwszych stron internetowych.",
-        "p2": "Od tamtej pory sporo się zmieniło. Na tej stronie JavaScript (a w sumie jego starszy brat - TypeScript) odpowiada między innymi za wysuwane menu nawigacyjne w wersji mobilnej, obsługę tłumaczenia oraz za przekierowywanie do odpowiednich podstron."
-    },
+  "intellij": {
+    "title": "IntelliJ",
+    "p1": "Środowiska od JetBrains używam do pracy nad kodem Javy praktycznie od początku swojej przygody z programowaniem.",
+    "p2": "Potrafię tutaj korzystać m.in. z narzędzi takich jak Gradle oraz Maven, oprogramowania testowego Mockito oraz Cucumbre i ze wsparcia dla baz danych w języku SQL."
+  },
 
-    "linux": {
-        "title": "Linux",
-        "p1": "Na codzień do pracy z kodem używam Macbooka, więc nie jest mi obca obsługa konsoli urządzeń opartych na Unixie.",
-        "p2": "Potrafię korzystać z podstawowych komend, instalować oprogramowanie i przeprowadzać operacje na plikach i folderach w terminalu."
-    },
+  "java": {
+    "title": "Java",
+    "p1": "Języka Java zacząłem używać na studiach. Zrealizowałem w nim kilka projektów, w tym drzewo binarne oraz program liczący minimum funkcji jednej zmiennej. Stworzyłem w niej także w pełni działającą aplikację mobilną na system Android.",
+    "p2": "Po wszystkie te projekty zapraszam na mojego ",
+    "href": "Githuba."
+  },
 
-    "nodejs": {
-        "title": "Node.js",
-        "p1": "Funkjonalności Node.js używam wraz z Angular.",
-        "p2": "Dzięki Node.js mogę stworzyć lokalny serwer na którym obserwuję efekt swoich prac nad aplikacją lub stworzyć nowy komponent zaledwie jedną, prostą komendą w terminalu."
-    },
+  "js": {
+    "title": "JavaScript",
+    "p1": "Języka Javascript po raz pierwszy użyłem, implementując zegar na jednej ze swoich pierwszych stron internetowych.",
+    "p2": "Od tamtej pory sporo się zmieniło. Na tej stronie JavaScript (a w sumie jego starszy brat - TypeScript) odpowiada między innymi za wysuwane menu nawigacyjne w wersji mobilnej, obsługę tłumaczenia oraz za przekierowywanie do odpowiednich podstron."
+  },
 
-    "numpy": {
-        "title": "NumPy",
-        "p1": "Biblioteka NumPy jest biblioteką dodającą do Pythona bardziej zaawansowane matematycznie funkcjonalności, takie jak m.in. definiowanie i wykonawanie obliczeń na macierzach, czy operowanie na bardzo małych liczbach.",
-        "p2": "NumPy używam wraz z Tensorflow w programach opartych na nauczaniu maszynowym."
-    },
+  "linux": {
+    "title": "Linux",
+    "p1": "Na codzień do pracy z kodem używam Macbooka, więc nie jest mi obca obsługa konsoli urządzeń opartych na Unixie.",
+    "p2": "Potrafię korzystać z podstawowych komend, instalować oprogramowanie i przeprowadzać operacje na plikach i folderach w terminalu."
+  },
 
-    "pandas": {
-        "title": "Pandas",
-        "p1": "Pandas również jest biblioteką Pythona służącą do tworzenia i operowania na bazach danych.",
-        "p2": "Używam jej głównie do pracy z dużymi bazami danych potrzebnymi przy nauczaniu maszynowym."
-    },
+  "nodejs": {
+    "title": "Node.js",
+    "p1": "Funkjonalności Node.js używam wraz z Angular.",
+    "p2": "Dzięki Node.js mogę stworzyć lokalny serwer na którym obserwuję efekt swoich prac nad aplikacją lub stworzyć nowy komponent zaledwie jedną, prostą komendą w terminalu."
+  },
 
-    "python": {
-        "title": "Python",
-        "p1": "Python jest językiem od którego zacząłem swoją przygodę z programowaniem. To na nim nauczyłem się tworzyć zmienne, iterować przez pętle oraz tworzyć funkcje.",
-        "p2": "Pythona używam do dzisiaj m.in. w nauczaniu maszynowym. Cenię sobie ten język za jego prostą i czytelną składnię oraz dużą ilość przydatnych bibliotek."
-    },
+  "numpy": {
+    "title": "NumPy",
+    "p1": "Biblioteka NumPy jest biblioteką dodającą do Pythona bardziej zaawansowane matematycznie funkcjonalności, takie jak m.in. definiowanie i wykonawanie obliczeń na macierzach, czy operowanie na bardzo małych liczbach.",
+    "p2": "NumPy używam wraz z Tensorflow w programach opartych na nauczaniu maszynowym."
+  },
 
-    "sql": {
-        "title": "SQL",
-        "p1": "Języka SQL uczyłem się na podstawie Oracle SQL, ale pracowałem też z rozwiązaniami takimi jak MySQL czy SQLite.",
-        "p2": "Dzięki zbliżonemu syntaxowi nie mam problemu z pracą w języku SQL tworzonym przez inne firmy."
-    },
+  "pandas": {
+    "title": "Pandas",
+    "p1": "Pandas również jest biblioteką Pythona służącą do tworzenia i operowania na bazach danych.",
+    "p2": "Używam jej głównie do pracy z dużymi bazami danych potrzebnymi przy nauczaniu maszynowym."
+  },
 
-    "tf": {
-        "title": "TensorFlow",
-        "p1": "Biblioteki TensorFlow używam do tworzenia aplikacji opartych na nauczaniu maszynowym. Zacząłem jej używać na studiach jeszcze zanim wybrałem specjalizację Machine Learning.",
-        "p2": "Próbki tego co tworzę dzięki TensorFlow dostępne są na moim ",
-        "href": "Githubie"
-    },
+  "python": {
+    "title": "Python",
+    "p1": "Python jest językiem od którego zacząłem swoją przygodę z programowaniem. To na nim nauczyłem się tworzyć zmienne, iterować przez pętle oraz tworzyć funkcje.",
+    "p2": "Pythona używam do dzisiaj m.in. w nauczaniu maszynowym. Cenię sobie ten język za jego prostą i czytelną składnię oraz dużą ilość przydatnych bibliotek."
+  },
 
-    "vscode": {
-        "title": "Visual Studio Code",
-        "p1": "Środowiska Visual Studio używam przy bardzo wielu okazjach, głównie przy tworzeniu stron internetowych.",
-        "p2": "Strona, którą właśnie przeglądasz, została napisana właśnie dzięki Visual Studio Code. Wraz ze środowiskiem korzystam z kilku wtyczek ułatwiających mi pracę np. z tej kompilującej pliki .scss do .css."
-    }
+  "sql": {
+    "title": "SQL",
+    "p1": "Języka SQL uczyłem się na podstawie Oracle SQL, ale pracowałem też z rozwiązaniami takimi jak MySQL czy SQLite.",
+    "p2": "Dzięki zbliżonemu syntaxowi nie mam problemu z pracą w języku SQL tworzonym przez inne firmy."
+  },
+
+  "tf": {
+    "title": "TensorFlow",
+    "p1": "Biblioteki TensorFlow używam do tworzenia aplikacji opartych na nauczaniu maszynowym. Zacząłem jej używać na studiach jeszcze zanim wybrałem specjalizację Machine Learning.",
+    "p2": "Próbki tego co tworzę dzięki TensorFlow dostępne są na moim ",
+    "href": "Githubie."
+  },
+
+  "vscode": {
+    "title": "Visual Studio Code",
+    "p1": "Środowiska Visual Studio używam przy bardzo wielu okazjach, głównie przy tworzeniu stron internetowych.",
+    "p2": "Strona, którą właśnie przeglądasz, została napisana właśnie dzięki Visual Studio Code. Wraz ze środowiskiem korzystam z kilku wtyczek ułatwiających mi pracę np. z tej kompilującej pliki .scss do .css."
+  },
+
+  "react": {
+    "title": "React.js",
+    "p1": "Naukę Reacta rozpocząłem zaraz po przyswojeniu Angular. Dzięki temu zacząłem coraz lepiej radzić sobie z JavaScript oraz Node.js.",
+    "p2": "Przy użyciu React, potrafię stworzyć aplikację webową wraz z obsługą prostego API. Przykładowy projekt znajduje się na moim ",
+    "href": "Githubie."
+  }
 }
