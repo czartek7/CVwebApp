@@ -126,7 +126,7 @@
     "title": "Java",
     "p1": "I started using that language while studying. I have built several projects using Java, including a binary tree and a program that counts the minimum of one variable function. I also created a fully working mobile application for Android.",
     "p2": "For all those projects, feel free to visit my ",
-    "href": "Github"
+    "href": "Github."
   },
 
   "js": {
@@ -175,7 +175,7 @@
     "title": "TensorFlow",
     "p1": "I use the TensorFlow library to create machine learning based applications. I started using it during my studies before choosing the Machine Learning specialization.",
     "p2": "Samples of what I create with TensorFlow are available on my ",
-    "href": "Github"
+    "href": "Github."
   },
 
   "vscode": {
