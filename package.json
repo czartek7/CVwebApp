@@ -27,7 +27,7 @@
     "elliptic": "^6.5.3",
     "eslint-cli": "^1.1.1",
     "karma-viewport": "^1.0.7",
-    "lodash": "^4.17.19",
+    "lodash": "^4.17.21",
     "npm-registry-fetch": "^4.0.5",
     "rxjs": "^6.5.5",
     "tslib": "^1.10.0",
