@@ -1,3 +1,7 @@
+# Final website version
+
+This project also runs on a server on [cezary-cieslinski.com](cezary-cieslinski.com). Feel free to visit it there.
+
 # AngularCV
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.8.
