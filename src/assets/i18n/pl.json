@@ -28,17 +28,17 @@
     "major2": "Stosunki Międzynarodowe I stopnia, specjalność „Asian Studies”",
     "add-info2": " w jęz. angielskim",
 
-    "date3": "MARZEC 2018 - LIPIEC 2018",
-    "date4": "PAŹDZIERNIK 2017 - MARZEC 2018",
-    "date5": "PAŹDZIERNIK 2016 - CZERWIEC 2019",
+    "date3": "WRZESIEŃ 2020 - NADAL",
+    "date4": "PAŹDZIERNIK 2018 - STYCZEŃ 2020",
+    "date5": "MARZEC 2018 - LIPIEC 2018",
 
-    "name1": "Urząd Marszałkowski w Łodzi — Departament Promocji i Współpracy Zagranicznej",
-    "name2": "Regionalny Ośrodek Debaty Międzynarodowej",
-    "name3": "Koło Naukowe Azji Wschodniej i Pacyfiku",
+    "name1": "Programista front-end w Welab sp. z o.o.",
+    "name2": "Barista w The Brick Coffee Factory",
+    "name3": "Stażysta w Urzędzie Marszałkowskim w Łodzi",
 
-    "desc1": "Do moich obowiązków jako stażysty należało redagowanie cotygodniowych raportów dot. polityki zagranicznej USA oraz Chin, tłumaczenie dokumentów oraz realizacja bieżących projektów. Zazwyczaj dotyczyły one współpracy z chińską prowincją Chengdu.",
-    "desc2": "Jako wolontariusz pomagałem przy organizacji wydarzeń promujących region, moderowałem stronę internetową oraz pełniłem dyżury w biurze.",
-    "desc3": "W kole naukowym udzielałem się przez całą długość studiów I stopnia. Już na pierwszym roku udało nam się zorganizować miesięczną wyprawę naukową do Tajlandii, Wietnamu, Laosu i Kambodży. Organizowaliśmy także serię spotkań z podróżnikami w kawiarni Daleko Blisko.",
+    "desc1": "Dzięki mojej pracy przemodelowany został całkowicie layout aplikacji webowej, a także dodane zostały nowe funkcjonalności. Stworzyłem też warstwę frontową całkiem nowego produktu złożonego z aplikacji webowej oraz mobilnej. Pracuję głównie z React, React Native, Angular oraz Wordpressem",
+    "desc2": "Przez ponad rok przygotowywałem pyszną kawę w jednej z najlepszych kawiarni w centrum Łodzi. Do dziś słyszę od ludzi, że lubili przychodzić na moją zmianę, a kawa przygotowana przeze mnie nigdy ich nie zawiodła.",
+    "desc3": "Do moich obowiązków należało redagowanie cotygodniowych raportów dot. polityki zagranicznej USA oraz Chin, tłumaczenie dokumentów oraz realizacja bieżących projektów. Zazwyczaj dotyczyły one współpracy z chińską prowincją Chengdu.",
 
     "coffee": "Kawa",
     "chess": "Szachy",
@@ -53,7 +53,7 @@
 
   "about": {
     "h1": "Cześć!",
-    "p": "Nazywam się Cezary Cieśliński i zajmuję się tworzeniem stron internetowych. Jestem studentem informatyki na Uniwersytecie Łódzkim. Obecnie szukam pracy, w której mógłbym rozwinąć się lepiej jako webdeveloper. Jeśli jesteś pracodawcą lub rekruterem to wspaniale się składa. Zapraszam Cię do zakładki CV, gdzie znajdziesz wszystkie informacje o moim doświadczeniu i umiejętnościach."
+    "p": "Nazywam się Cezary Cieśliński i zajmuję się tworzeniem stron internetowych. Jestem studentem informatyki na Uniwersytecie Łódzkim. Obecnie pracuję jako front-end developer w jednej z Łódzkich firm i szukam możliwości dalszego rozwoju. Jeśli jesteś pracodawcą lub rekruterem to wspaniale się składa. Zapraszam Cię do zakładki CV, gdzie znajdziesz wszystkie informacje o moim doświadczeniu i umiejętnościach."
   },
 
   "default": {
@@ -185,9 +185,8 @@
   },
 
   "react": {
-    "title": "React.js",
-    "p1": "Naukę Reacta rozpocząłem zaraz po przyswojeniu Angular. Dzięki temu zacząłem coraz lepiej radzić sobie z JavaScript oraz Node.js.",
-    "p2": "Przy użyciu React, potrafię stworzyć aplikację webową wraz z obsługą prostego API. Przykładowy projekt znajduje się na moim ",
-    "href": "Githubie."
+    "title": "React oraz React Native",
+    "p1": "Reacta po raz pierwszy użyłem w swojej pierwszej pracy przy okazji projektu, który miał składać się z dwóch aplikacji - webowej oraz mobilnej",
+    "p2": "Dobrze znam podstawy tego frameworka oraz jego mobilnego brata - React Native. Potrafię m.in. połączyć aplikację z API, stworzyć moduł logowania oraz zadbać o routing."
   }
 }
